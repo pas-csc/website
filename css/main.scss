@@ -1,0 +1,48 @@
+---
+---
+
+@import 'custom/_variables';
+@import 'bootstrap/bootstrap';
+@import 'fontawesome/fontawesome';
+
+// Layout of alert bar and menu
+
+.alert {
+    margin-bottom: 0rem;
+    }
+
+.navbar-brand {
+    margin-right: 0.2rem; //decrease
+    }     
+    
+.nav-item {
+    font-size: 1.4rem;
+    }      
+    
+.container-menu {
+    padding-right:0;
+    padding-left:0;
+}
+
+//custom fonts
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .nav-item {
+    font-family: 'Oswald', sans-serif;
+    }
+    
+p, .p {
+    font-family: 'Raleway', serif;
+    }
+
+//photo spinach
+
+//.img-overlay {
+//    position: relative;
+//    max-width: 500px;
+//    background-color:;
+//}    
+    
+#who-we-are-splash {
+    background-image: url('../img/photos/626.jpg');
+    background-size: cover;
+    }
+   
