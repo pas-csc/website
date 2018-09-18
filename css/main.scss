@@ -25,24 +25,41 @@
 }
 
 //custom fonts
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .nav-item {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom:1rem;
+    }
+
+.nav-item {
     font-family: 'Oswald', sans-serif;
     }
     
-p, .p {
+p, .p, .btn {
     font-family: 'Raleway', serif;
+    font-size: 1.2rem;
     }
-
-//photo spinach
-
-//.img-overlay {
-//    position: relative;
-//    max-width: 500px;
-//    background-color:;
-//}    
     
-#who-we-are-splash {
-    background-image: url('../img/photos/626.jpg');
-    background-size: cover;
-    }
-   
+.lead  {
+    font-size: 1.4rem;
+    }    
+
+a, .a {
+    font-color: $shirt;
+    }    
+
+// a paragraph proceeded by another paragraph will have a top margin
+p + p {
+    margin-top: 0.5rem;
+}
+
+// Form Validation Errors
+
+.error {
+	border-color: red;
+}
+
+.error-message {
+	color: red;
+	font-style: italic;
+	margin-bottom: 1em;
+}    
