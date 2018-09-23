@@ -8,15 +8,15 @@
 // Layout of alert bar and menu
 
 .alert {
-    margin-bottom: 0rem;
+    margin-bottom: 0em;
     }
 
 .navbar-brand {
-    margin-right: 0.2rem; //decrease
+    margin-right: 0.2em; //decrease
     }     
     
 .nav-item {
-    font-size: 1.4rem;
+    font-size: 1.4em;
     }      
     
 .container-menu {
@@ -24,10 +24,26 @@
     padding-left:0;
 }
 
+// Font scaling for mobile vs desktop
+
+@media only screen and (max-width: 576px) {
+
+   
+   display-4, .display-4 {font-size: 2.5em;}
+   
+   h1, .h1 {font-size: 2em;}
+   
+.btn {
+    white-space:normal !important;
+    word-wrap: break-word; 
+    word-break: normal;
+    }
+}
+
 //custom fonts
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, {
     font-family: 'Oswald', sans-serif;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
     }
 
 .nav-item {
@@ -36,20 +52,23 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, {
     
 p, .p, .btn {
     font-family: 'Raleway', serif;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     }
     
 .lead  {
-    font-size: 1.4rem;
+    font-size: 1.4em;
     }    
 
 a, .a {
     font-color: $shirt;
     }    
 
+
+    
+    
 // a paragraph proceeded by another paragraph will have a top margin
 p + p {
-    margin-top: 0.5rem;
+    margin-top: 0.5em;
 }
 
 // Form Validation Errors

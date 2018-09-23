@@ -4,7 +4,12 @@ title: Walktober 2018 with Pasadena CSC
 markdown: kramdown
 ---
 
-![Publicity poster for Walktober 2018]({{ site.url }}/img/walktober/walktober.jpg "Walktober 2018")
+<!--Poster-->
+<div class="container" style="padding-top:70px;">
+  <div class="row">
+    <div class="col text-center"><img src="{{ site.url }}/img/walktober/walktober.jpg" class="img-fluid"></div>  
+  </div>
+</div>
 
 # Walktober 2018: A Pasadena Celebration of Walking
 
