@@ -34,9 +34,9 @@ However, the success of any policy depends on its implementation - which is wher
 
 We are people who use many modes of transportation. Most of us drive too, in addition to using public transit, riding our bicycles, and walking for exercise, commuting, and errands. We live all over Pasadena, or near Pasadena. We have a diverse range of backgrounds, but we are actively seeking even more diversity in age, background, experience, and reasons for using non-motorized mobility options.
 
-Together, we make up a 100% volunteer-driven organization, completely independent of the City of Pasadena. We are not a 501(c)(3) not-for-profit. This frees up time, because we don’t have to spend a lot of time fussing with process. It also means we’re DIY and have only a miniscule budget. Yet we manage to get a lot done! 
+Together, we make up a 100% volunteer-driven organization, completely independent of the City of Pasadena. We’re DIY and have only a miniscule budget. Yet we manage to get a lot done! 
 
-CSC members often say that one of their favorite things about the group is that we're always open to new ideas. Want to change a policy, advocate for an issue, create a program, initiate some tactical urbanism? If you're ready to work, let’s do it! 
+CSC members often say that one of their favorite things about the group is that we're always open to new ideas. Want to change a policy, advocate for an issue, create a program, throw an event? If you're ready to work, let’s do it! 
 
 ## How we work 
 

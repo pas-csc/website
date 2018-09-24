@@ -7,6 +7,7 @@
 
 // Layout of alert bar and menu
 
+
 .alert {
     margin-bottom: 0em;
     }
@@ -33,6 +34,8 @@
    
    h1, .h1 {font-size: 2em;}
    
+   h2, .h2 {font-size: 1.8em;}
+   
 .btn {
     white-space:normal !important;
     word-wrap: break-word; 
@@ -50,7 +53,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, {
     font-family: 'Oswald', sans-serif;
     }
     
-p, .p, .btn {
+p, .p, .btn, li, .li, ol, .ol {
     font-family: 'Raleway', serif;
     font-size: 1.2em;
     }
@@ -81,4 +84,26 @@ p + p {
 	color: red;
 	font-style: italic;
 	margin-bottom: 1em;
-}    
+}  
+
+// Datebox
+
+datebox, .datebox {
+    background-image: linear-gradient(to bottom right, $primary, $shirt);
+    padding:0.5em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em 0.2em;
+    color: $white;
+    text-weight: 800;
+    text-align: center;
+    font-family: 'Raleway', serif;
+    font-size: 1.8em;
+}  
+
+@media only screen and (max-width: 576px) {
+datebox, .datebox {
+    font-size: 1.2em;
+}  
+
+}
