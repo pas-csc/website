@@ -5,6 +5,10 @@
 @import 'bootstrap/bootstrap';
 @import 'fontawesome/fontawesome';
 
+body{
+    background-color:#f5f6de;
+}
+
 // Layout of alert bar and menu
 
 
@@ -89,21 +93,27 @@ p + p {
 // Datebox
 
 datebox, .datebox {
-    background-image: linear-gradient(to bottom right, $primary, $shirt);
-    padding:0.5em;
+    background-image: linear-gradient(to bottom right, #d21c25, #ab3438);
     margin-right: 1em;
     margin-bottom: 1em;
-    border-radius: 0.5em 0.2em;
+    border-radius: 30%;
     color: $white;
     text-weight: 800;
     text-align: center;
     font-family: 'Raleway', serif;
     font-size: 1.8em;
+    width: 100px;
+    height: 100px;
+    padding: 0.5em 0.2em;
+    line-height: 1.2;
+    vertical-align: middle;
 }  
 
 @media only screen and (max-width: 576px) {
 datebox, .datebox {
     font-size: 1.2em;
+    width: 55px;
+    height: 55px;
 }  
 
 }
