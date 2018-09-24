@@ -5,15 +5,22 @@ title: Walktober 2018 with Pasadena CSC
 <div class="container" id="pagetop" style="padding-top:30px;">
   <div class="row"> 
     <div class="col">
-      <h1 class="display-4">Walktober 2018<br>A Celebration of Walking in Pasadena</h1>
+      <h1 class="display-4 text-center">Walktober 2018<br>A Celebration of Walking in Pasadena</h1>
     </div>
   </div>
   
   <div class="row"> 
     <div class="col">
-      <h3>Presented by the Pasadena Complete Streets Coalition and Day One in collaboration with:</h3>
-      <p class="text-center"><img class="walklogo" src="{{ site.url }}/img/csc_logos/banner_small.jpg" width="300px" alt="Pasadena CSC"><img src="{{ site.url }}/img/walktober/dayone-logo.jpg" width="150px" alt="Day One"><br>
-      <img src="{{ site.url }}/img/walktober/artwalk-logo.png" width="200px" alt="Pasadena ArtWalk"><img src="{{ site.url }}/img/walktober/opmd-logo.jpg" width="200px" alt="Old Pasadena Management District"><img src="{{ site.url }}/img/walktober/pasadenaheritage-logo.jpg" width="200px" alt="Pasadena Heritage">[Pasadena Walking Tours]<br> Pasadena Jaycees, Pasadena Downtown Neighborhood Association, Pasadena Water and Power, Pasadena Citizen's Service Center, and Club 21</p>
+      <h3 class="text-center">Presented by the Pasadena Complete Streets Coalition and Day One</h3> 
+      <p class="text-center"><img class="walklogo" src="{{ site.url }}/img/csc_logos/banner_small.jpg" width="300px" alt="Pasadena CSC" style="margin-right:3em;"><img src="{{ site.url }}/img/walktober/dayone-logo.jpg" width="150px" alt="Day One"></p>
+      <h3 class="text-center">in collaboration with:</h3>
+      <p class="text-center"><img src="{{ site.url }}/img/walktober/artwalk-logo.png" width="200px" alt="Pasadena ArtWalk"> 
+      <img src="{{ site.url }}/img/walktober/opmd-logo.jpg" width="200px" alt="Old Pasadena Management District">
+      <img src="{{ site.url }}/img/walktober/pasadenaheritage-logo.jpg" width="200px" alt="Pasadena Heritage">
+      <img src="{{ site.url }}/img/walktober/pwt-logo.png" width="100px" alt="Pasadena Walking Tours"> 
+      <img src="{{ site.url }}/img/walktober/jaycees-logo.jpg" width="100px" alt="Pasadena Jaycees"> 
+      <img src="{{ site.url }}/img/walktober/club21-logo.jpg" width="200px" alt="Club 21"><br>
+      Pasadena Downtown Neighborhood Association, Pasadena Water and Power, and Pasadena Citizen's Service Center</p>
     </div>
   </div>
 </div>
