@@ -1,5 +1,5 @@
 ---
-layout: static-info
+layout: static
 title: Contact the Pasadena Complete Streets Coalition
 markdown: kramdown
 ---

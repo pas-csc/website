@@ -1,5 +1,5 @@
 ---
-layout: static-info
+layout: static
 title: About the Pasadena Complete Streets Coalition
 markdown: kramdown
 ---
@@ -47,3 +47,4 @@ We have one general meeting per month, usually on the first Monday from 7:00–9
 - The [Vision Zero Network](http://visionzeronetwork.org) works toward a world with zero traffic fatalities.
 - [Next City](https://nextcity.org) and [Strong Towns](https://www.strongtowns.org) are great resources to learn about urban planning, transit, and placemaking innovations in cities and towns all over the world.
 
+{% include mailchimp.html %}
