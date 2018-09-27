@@ -21,7 +21,7 @@ name: Pasadena Complete Streets Coalition
 description: >- # this means to ignore newlines until "baseurl:"
   Official website of the Pasadena Complete Streets Coalition (Pasadena CSC), a community group advocating for safe street design and active transportation in Pasadena, CA.
 # baseurl: "/beta" # the subpath of your site, e.g. /blog
-url: "https://www.pasadenacsc.org/beta" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.pasadenacsc.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: PasadenaCSC
 github_username:  pas-csc
 
