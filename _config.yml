@@ -30,9 +30,24 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 permalink: :title/
+future: true
 sass:
   sass_dir: css
-collections:
-   pages:
-     output: true
-     permalink: /:path/
+include:
+  - ['_pages']
+  - ['_events']
+  - ['_projects']
+# Collections
+collections: 
+  pages: 
+    output: true
+    permalink: /:path/ 
+  events: 
+    output: true
+    special: true
+    permalink: /:collection/:path/
+  projects: 
+    output: true
+    permalink: /:collection/:path/  
+    output: true
+    permalink: /:collection/:path/
