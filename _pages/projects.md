@@ -1,6 +1,6 @@
 ---
 layout: static
-title: About the Pasadena Complete Streets Coalition
+title: Projects
 markdown: kramdown
 ---
 

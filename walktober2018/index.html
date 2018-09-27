@@ -1,9 +1,9 @@
 ---
 layout: default-noalert
-title: Walktober 2018 with Pasadena CSC
+title: Walktober 2018 - Pasadena Complete Streets Coalition
 ---
 <!--Logo Area-->
-<div id="pagetop" style="padding-top:30px;">
+<div id="pagetop" style="padding-top:70px;">
   <div class="row"> 
     <div class="col">
       <h1 class="display-4 text-center">Walktober 2018<br>A Celebration of Walking in Pasadena</h1>
@@ -14,8 +14,8 @@ title: Walktober 2018 with Pasadena CSC
     <div class="col">
       <h3 class="text-center">Presented by the Pasadena Complete Streets Coalition and Day One</h3> 
         <div class="row justify-content-center">
-        <div class="col-auto"><img class="walklogo" src="{{ site.url }}/img/csc_logos/banner_small.jpg" width="300px" alt="Pasadena CSC"></div>
-        <div class="col-auto"><img src="{{ site.url }}/img/walktober/dayone-logo.jpg" width="150px" alt="Day One"></div>
+        <div class="col-auto"><img src="{{ site.url }}/img/csc_logos/banner_small.jpg" width="300px" alt="Pasadena CSC"></div>
+        <div class="col-auto"><img src="{{ site.url }}/img/walktober/dayone-logo.jpg" width="133px" alt="Day One"></div>
         </div>
       <h3 class="text-center">in collaboration with:</h3>
       <p class="text-center"><img src="{{ site.url }}/img/walktober/artwalk-logo.png" width="200px" alt="Pasadena ArtWalk"> 
@@ -24,7 +24,7 @@ title: Walktober 2018 with Pasadena CSC
       <img src="{{ site.url }}/img/walktober/pwt-logo.png" width="100px" alt="Pasadena Walking Tours"> 
       <img src="{{ site.url }}/img/walktober/jaycees-logo.jpg" width="100px" alt="Pasadena Jaycees"> 
       <img src="{{ site.url }}/img/walktober/club21-logo.jpg" width="200px" alt="Club 21"><br>
-      Pasadena Downtown Neighborhood Association, Pasadena Water and Power, and Pasadena Citizen's Service Center</p>
+      and the Pasadena Downtown Neighborhood Association, Pasadena Water and Power, and the Pasadena Citizen's Service Center</p>
     </div>
   </div>
 </div>
@@ -41,9 +41,9 @@ title: Walktober 2018 with Pasadena CSC
 
 <!--Calendar-->
 <div id="eventList" style="padding-top:30px;">
-<h1>Upcoming Events</h1>
+<h1>Events</h1>
 <p class="lead"><em>All dates are in October.</em></p>
-<p><a href="https://calendar.google.com/calendar/embed?src=e2951ldkd87chs8raacpep5648%40group.calendar.google.com&ctz=America%2FLos_Angeles" target="_blank" rel="noopener noreferrer">See these events in Google Calendar format.</a> (You can easily copy an event to your personal calendar by clicking on it, then clicking on the three dots.)</p>
+<p><a href="https://calendar.google.com/calendar/embed?src=e2951ldkd87chs8raacpep5648%40group.calendar.google.com&tab=mc&date=20181001" target="_blank" rel="noopener noreferrer">See these events in Google Calendar format.</a> (You can easily copy an event to your personal calendar by clicking on it, then clicking on the three dots.)</p>
 
 {% for event in site.data.walkList %}
 <div class="card card-body mb-3">
@@ -54,15 +54,16 @@ title: Walktober 2018 with Pasadena CSC
         <div class="row">
             <div class="col-auto"><p><i class="far fa-clock"></i> {{ event.Time }}</p></div>
             <div class="col-auto"><p><i class="fas fa-dollar-sign"></i> {{ event.Price }}</p></div>
-            <div class="col-auto"><p><i class="fas fa-map-marker-alt"></i> {{ event.Meet }}</p></div>
+            <div class="col-auto"><p><i class="fas fa-map-marker-alt"></i> {{ event.Meet }}{% if event.GMap!=nil %} (<a href="event.GMap" target="_blank" rel="noopener noreferrer">Map</a>){% endif %}</p></div>
         </div>
-        <p><a data-toggle="collapse" href="#{{ event.Name | slice:0,3 }}-{{ event.Date }}-col" role="button" aria-expanded="false" aria-controls="{{ event.Name | slice:0,3}}-{{ event.Date }}-col">Details</a> | {% if event.Page == nil %}Event Page TBA{% else %}<a href="{{ event.Page }}" target="_blank" rel="noopener noreferrer">{{ event.PageType }}</a>{% endif %}</p>
+        <p><a data-toggle="collapse" href="#{{ event.Name | slice:0,3 }}-{{ event.Date }}-col" role="button" aria-expanded="false" aria-controls="{{ event.Name | slice:0,3}}-{{ event.Date }}-col">Details</a> {% if event.Page != nil %}| <a href="{{ event.Page }}" target="_blank" rel="noopener noreferrer">{{ event.PageType }}</a>{% endif %}{% if event.Tickets != nil %} | <a href="{{ event.Tickets }}" target="_blank" rel="noopener noreferrer">Tickets</a>{% endif %}</p>
             <div class="collapse" id="{{ event.Name | slice:0,3 }}-{{ event.Date }}-col">
                 {% if event.Detail1 != nil %}<p>{{ event.Detail1 }}</p>{% endif %}
                 {% if event.Detail2 != nil %}<p>{{ event.Detail2 }}</p>{% endif %}
                 {% if event.Detail3 != nil %}<p>{{ event.Detail3 }}</p>{% endif %}
                 {% if event.Partner =="Y" %}<p>This is a partner event, so please see our partner's <a href="{{ event.Page }}" target="_blank" rel="noopener noreferrer">event page</a> for the most up-to-date information.</p>{% endif %}
-                <p><em>Hosted by <a href="{{ event.OrgSite1 }}" target="_blank" rel="noopener noreferrer">{{ event.Org1 }}</a>{% if event.Org2 != nil %} and <a href="{{ event.OrgSite2 }}" target="_blank" rel="noopener noreferrer">{{ event.Org2 }}</a>{% endif %}</em>.</p>
+                <p><em>Hosted by <a href="{{ event.OrgSite1 }}" target="_blank" rel="noopener noreferrer">{{ event.Org1 }}</a>{% if event.Org3 != nil %}, <a href="{{ event.OrgSite2 }}" target="_blank" rel="noopener noreferrer">{{ event.Org2 }}</a>, and <a href="{{ event.OrgSite3 }}" target="_blank" rel="noopener noreferrer">{{ event.Org3 }}</a>{% endif %}{% if event.Org2 != nil and event.Org3 == nil%} and <a href="{{ event.OrgSite2 }}" target="_blank" rel="noopener noreferrer">{{ event.Org2 }}</a>{% endif %}</em>
+                .</p>
     </div>
     </div> 
   </div>
@@ -75,8 +76,9 @@ title: Walktober 2018 with Pasadena CSC
       <div class="col"><h1>About Walktober</h1>
       <p><strong>Walktober</strong> is an annual national event to get people walking in their communities! Walking is a deeply human activity, and we are proud to offer a full slate of tours, crawls, strolls, and exercise events that reflect a wide range of reasons and ways to enjoy walking. Whether you walk for physical health, mental health, to meet people, to see new things, or simply to get places and get things done (and maybe all of the above!), we want to recognize and celebrate that as an excellent thing.</p>
       <h1>About the Main Organizers, the Pasadena Complete Streets Coalition</h1>
-      <p>The Pasadena Complete Streets Coalition is a community advocacy group dedicated to Complete Streets, a state-of-the-art approach to street and transportation design and policy to make Pasadena's streets for everyone -- public space that is safe, pleasant, and multi-functional. We think that walking is best when it's safe and fun, and we work on events, policies, and projects that embrace just that! Learn more about us at our website, <a href="{{ site.url }}" target="_blank" rel="noopener noreferrer">www.pasadenacsc.org</a></p>
-      <p>Complete Streets has been widely embraced by municipalities, states, and the U.S. Dept. of Transportation. Learn more at the Federal Department of Transportation's complete streets website, <a href="https://www.transportation.gov/mission/health/complete-streets" target="_blank" rel="noopener noreferrer">www.transportation.gov/mission/health/complete-streets</a>.</p>
+      <p>The <strong>Pasadena Complete Streets Coalition</strong> is a community advocacy group dedicated to Complete Streets, a state-of-the-art approach to street and transportation design and policy with the idea that Pasadena's streets are for everyone: they are public spaces that should be safe, pleasant, and multi-functional. We think that walking is best when it's safe and fun, and we work on events, policies, and projects that embrace just that!</p> 
+      <p><strong>Learn more about us at our website, <a href="{{ site.url }}" target="_blank" rel="noopener noreferrer">www.pasadenacsc.org</a></strong></p>
+      <p><strong>Complete Streets</strong> has been widely embraced by municipalities, states, and the U.S. Dept. of Transportation. Learn more at the Federal Department of Transportation's Complete Streets website, <a href="https://www.transportation.gov/mission/health/complete-streets" target="_blank" rel="noopener noreferrer">www.transportation.gov/mission/health/complete-streets</a>.</p>
       </div>  
   </div>
 </div>

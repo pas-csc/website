@@ -23,12 +23,10 @@ Complete Streets, also known as "livable" streets, are streets designed for ever
 
 While the exact design of a Complete Street will depend on local needs, some examples of Complete Street elements include highly visible crosswalks, transit stops designed for greater comfort and accessibility, pedestrian signals, bike signals, median islands, sidewalks, bicycle lanes, street trees, and water-collecting bioswales. 
 
-Local and state governments have the power to adopt laws and policies that support Complete Streets. By enshrining the needs of all road users into a local policy, a community can set the stage for future improvements that are inviting and accessible to everyone. 
-
-## California Complete Streets Act - AB 1358
-In 2008, California became the first state in the nation to adopt a statewide Complete Streets policy. Governor Schwarzenegger signed [AB 1358](http://www.leginfo.ca.gov/pub/07-08/bill/asm/ab_1351-1400/ab_1358_bill_20080908_enrolled.html) into law on September 30th, requiring cities and counties to ensure, starting on January 1, 2012, that local roads and streets accommodate the needs of all road users - pedestrians, bicyclists, transit riders, and drivers. 
-
-However, the success of any policy depends on its implementation - which is where Pasadena CSC can help!
+## Learn more about Complete Streets
+- The [National Complete Streets Coalition](https://smartgrowthamerica.org/program/national-complete-streets-coalition/) has tons of resources to dig deeper. 
+- The [Vision Zero Network](http://visionzeronetwork.org) works toward a world with zero traffic fatalities.
+- [Next City](https://nextcity.org) and [Strong Towns](https://www.strongtowns.org) are great resources to learn about urban planning, transit, and placemaking innovations in cities and towns all over the world.
 
 # Who we are and who we want to be 
 
@@ -42,9 +40,6 @@ CSC members often say that one of their favorite things about the group is that 
 
 We have one general meeting per month, usually on the first Monday from 7:00–9:00 p.m. In addition to the monthly meetings, we have occasional smaller group meetings to work on various collaborative projects and campaigns. You can usually find the date and location of our next meeting on our [Facebook event feed](https://www.facebook.com/pg/pasadenacsc/events/) (regardless of whether or not you use Facebook!)
 
-## Additional resources
-- The [National Complete Streets Coalition](https://smartgrowthamerica.org/program/national-complete-streets-coalition/) has tons of resources to dig deeper. 
-- The [Vision Zero Network](http://visionzeronetwork.org) works toward a world with zero traffic fatalities.
-- [Next City](https://nextcity.org) and [Strong Towns](https://www.strongtowns.org) are great resources to learn about urban planning, transit, and placemaking innovations in cities and towns all over the world.
+
 
 {% include mailchimp.html %}
