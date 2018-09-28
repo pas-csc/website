@@ -1,6 +1,6 @@
 ---
-layout: default-noalert
-title: Walktober 2018 - Pasadena Complete Streets Coalition
+layout: walktober
+title: Walktober 2018
 ---
 <!--Logo Area-->
 <div id="pagetop" style="padding-top:70px;">
@@ -61,7 +61,7 @@ title: Walktober 2018 - Pasadena Complete Streets Coalition
                 {% if event.Detail1 != nil %}<p>{{ event.Detail1 }}</p>{% endif %}
                 {% if event.Detail2 != nil %}<p>{{ event.Detail2 }}</p>{% endif %}
                 {% if event.Detail3 != nil %}<p>{{ event.Detail3 }}</p>{% endif %}
-                {% if event.Partner =="Y" %}<p>This is a partner event, so please see our partner's <a href="{{ event.Page }}" target="_blank" rel="noopener noreferrer">event page</a> for the most up-to-date information.</p>{% endif %}
+                {% if event.Partner =="Y" and event.Page != nil %}<p>This is a partner event, so please see our partner's <a href="{{ event.Page }}" target="_blank" rel="noopener noreferrer">event page</a> for the most up-to-date information.</p>{% endif %}
                 <p><em>Hosted by <a href="{{ event.OrgSite1 }}" target="_blank" rel="noopener noreferrer">{{ event.Org1 }}</a>{% if event.Org3 != nil %}, <a href="{{ event.OrgSite2 }}" target="_blank" rel="noopener noreferrer">{{ event.Org2 }}</a>, and <a href="{{ event.OrgSite3 }}" target="_blank" rel="noopener noreferrer">{{ event.Org3 }}</a>{% endif %}{% if event.Org2 != nil and event.Org3 == nil%} and <a href="{{ event.OrgSite2 }}" target="_blank" rel="noopener noreferrer">{{ event.Org2 }}</a>{% endif %}</em>.</p>
     </div>
     </div> 
