@@ -3,7 +3,7 @@ layout: walktober
 title: Walktober 2018
 ---
 <!--Logo Area-->
-<div id="pagetop" style="padding-top:70px;">
+<div id="pagetop" style="padding-top:30px;">
   <div class="row"> 
     <div class="col">
       <h1 class="display-4 text-center">Walktober 2018<br>A Celebration of Walking in Pasadena</h1>
@@ -23,8 +23,8 @@ title: Walktober 2018
       <img src="{{ site.url }}/img/walktober/pasadenaheritage-logo.jpg" width="200px" alt="Pasadena Heritage">
       <img src="{{ site.url }}/img/walktober/pwt-logo.png" width="100px" alt="Pasadena Walking Tours"> 
       <img src="{{ site.url }}/img/walktober/jaycees-logo.jpg" width="100px" alt="Pasadena Jaycees"> 
-      <img src="{{ site.url }}/img/walktober/club21-logo.jpg" width="200px" alt="Club 21"><br>
-      and the Pasadena Downtown Neighborhood Association, Pasadena Water and Power, and the Pasadena Citizen's Service Center</p>
+      <img src="{{ site.url }}/img/walktober/club21-logo.jpg" width="200px" alt="Club 21"></p>
+      <p>and the Pasadena Downtown Neighborhood Association, Pasadena Water and Power, and the Pasadena Citizen's Service Center</p>
     </div>
   </div>
 </div>
@@ -48,14 +48,22 @@ title: Walktober 2018
 {% for event in site.data.walkList %}
 <div class="card card-body mb-3">
   <div class="row">
+    <div class="col-auto">
+        <div class="datebox">{{ event.Day }}<br>{{ event.Date }}</div>
+    </div>
     <div class="col">
-        <div class="datebox float-left">{{ event.Day }}<br>{{ event.Date }}</div>
+        <div class="row"><div class="col">
         <h2>{{ event.Name }}</h2>
-        <div class="row">
-            <div class="col-auto"><p><i class="far fa-clock"></i> {{ event.Time }}</p></div>
-            <div class="col-auto"><p><i class="fas fa-dollar-sign"></i> {{ event.Price }}</p></div>
-            <div class="col-auto"><p><i class="fas fa-map-marker-alt"></i> {{ event.Meet }}{% if event.GMap!=nil %} (<a href="{{ event.GMap }}" target="_blank" rel="noopener noreferrer">Map</a>){% endif %}</p></div>
-        </div>
+        </div></div>
+        <div class="row"><div class="col">
+            <div class="infoblock"><p><i class="far fa-clock"></i> {{ event.Time }}</p></div>
+            <div class="infoblock"><p><i class="fas fa-dollar-sign"></i> {{ event.Price }}</p></div>
+            <div class="infoblock"><p><i class="fas fa-map-marker-alt"></i> {{ event.Meet }}{% if event.GMap!=nil %} (<a href="{{ event.GMap }}" target="_blank" rel="noopener noreferrer">Map</a>){% endif %}</p></div>
+        </div></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
         <p><a data-toggle="collapse" href="#{{ event.Name | slice:0,3 }}-{{ event.Date }}-col" role="button" aria-expanded="false" aria-controls="{{ event.Name | slice:0,3}}-{{ event.Date }}-col">Details</a> {% if event.Page != nil %}| <a href="{{ event.Page }}" target="_blank" rel="noopener noreferrer">{{ event.PageType }}</a>{% endif %}{% if event.Tickets != nil %} | <a href="{{ event.Tickets }}" target="_blank" rel="noopener noreferrer">Tickets</a>{% endif %}</p>
             <div class="collapse" id="{{ event.Name | slice:0,3 }}-{{ event.Date }}-col">
                 {% if event.Detail1 != nil %}<p>{{ event.Detail1 }}</p>{% endif %}
@@ -63,7 +71,7 @@ title: Walktober 2018
                 {% if event.Detail3 != nil %}<p>{{ event.Detail3 }}</p>{% endif %}
                 {% if event.Partner =="Y" and event.Page != nil %}<p>This is a partner event, so please see our partner's <a href="{{ event.Page }}" target="_blank" rel="noopener noreferrer">event page</a> for the most up-to-date information.</p>{% endif %}
                 <p><em>Hosted by <a href="{{ event.OrgSite1 }}" target="_blank" rel="noopener noreferrer">{{ event.Org1 }}</a>{% if event.Org3 != nil %}, <a href="{{ event.OrgSite2 }}" target="_blank" rel="noopener noreferrer">{{ event.Org2 }}</a>, and <a href="{{ event.OrgSite3 }}" target="_blank" rel="noopener noreferrer">{{ event.Org3 }}</a>{% endif %}{% if event.Org2 != nil and event.Org3 == nil%} and <a href="{{ event.OrgSite2 }}" target="_blank" rel="noopener noreferrer">{{ event.Org2 }}</a>{% endif %}</em>.</p>
-    </div>
+            </div>
     </div> 
   </div>
 </div>
