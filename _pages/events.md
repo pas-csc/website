@@ -9,7 +9,7 @@ We'll be updating this shortly with an ongoing list of our social and advocacy e
  
  
   
-**Right now, we're focusing on [Walktober]({{ site.url }}/walktober2018/) - a whole month of events to celebrate walking!** Maybe check that out?
+**[Walktober 2018]({{ site.url }}/walktober2018/) is past (it was a whole month of events to celebrate walking!) but don't worry...we'll be back soon with Bike Week in May 2019 and Walktober redux in 2019!
  
  
  
