@@ -2,12 +2,13 @@
 <html>
 {% include head.html %}
   <body>
+  <!--Top anchor-->
+<div id="pagetop"></div>
 <!---{% include alert.html %} <!--Comment out the contents of alert.html when there are no alerts-->
 {% include menu.html %}
 <div class="container" style="padding-top:30px;">
 <p><a href="{{ site.url }}">Home</a> / <strong>{{ page.title }}</strong></p>
 <hr>
-
   {{ content }}
 </div>
  {% include footer.html %}
