@@ -2,7 +2,7 @@
 layout: static
 title:  "DonutTree Kaleculator"
 linkURL: https://www.pasadenacsc.org/donut/
-imgURL: https://www.pasadenacsc.org/donut/donut.png
+imgURL: https://www.pasadenacsc.org/img/photos/donutTabling.jpg
 ---
 
 How much CO2 can you save and how many donuts (or kale) can you eat if you walk or bike on your next short trip? Find out with our [DonutTree Kaleculator](https://www.pasadenacsc.org/donut/)! (New! Updated for 2019 to include people who use wheelchairs, strollers, and kale!)
