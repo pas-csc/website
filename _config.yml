@@ -37,6 +37,7 @@ include:
   - ['_pages']
   - ['_events']
   - ['_projects']
+  - ['_actionitems']
 # Collections
 collections: 
   pages: 
@@ -47,7 +48,8 @@ collections:
     special: true
     permalink: /:collection/:path/
   projects: 
-    output: true
+    output: false
     permalink: /:collection/:path/  
-    output: true
+  actionitems:
+    output: false
     permalink: /:collection/:path/

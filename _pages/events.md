@@ -25,6 +25,6 @@ See our Google Calendar [(open in new window)](https://calendar.google.com/calen
 <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=e2951ldkd87chs8raacpep5648%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no" class="d-none d-md-block"></iframe>
 
 <!--Show on smaller screens-->
-<iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=e2951ldkd87chs8raacpep5648%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=America%2FLos_Angeles" style="border-width:0;max-width:95%" width="400" height="600" frameborder="0" scrolling="no" class="d-md-none"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=e2951ldkd87chs8raacpep5648%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="400" height="600" frameborder="0" scrolling="no" class="d-md-none"></iframe>
 
 {% include mailchimp.html %}
