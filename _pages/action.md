@@ -1,6 +1,6 @@
 ---
 layout: staticalerttarget
-title: Action Alert - Support the Union Street Protected Bike / Roll Lane!
+title: Action Alert: Support the Union Street Protected Bike / Roll Lane!
 markdown: kramdown
 ---
 # Do you want safer streets? Would you like to comfortably ride a bike, skateboard, scooter, or other wheeled device in Pasadena?
