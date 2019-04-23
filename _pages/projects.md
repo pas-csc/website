@@ -8,8 +8,12 @@ markdown: kramdown
 The projects highlighted below are only a small sampling of the work we do. Check back as we update this page...
 
 {% for project in site.projects %}
+{% if project.linkURL %}
+## <a href="{{ project.linkURL }}">{{ project.title }}</a>
+{% else %}
+## {{ project.title }}
+{% endif %}
 
-<h2 style="padding-top:1.5em;"><a href="{{ project.linkURL }}">{{ project.title }}</a></h2>
 <img src="{{project.imgURL}}" class="img-fluid" style="padding:5px;"><br>
 
 {{ project.content }}

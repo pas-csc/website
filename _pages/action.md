@@ -12,7 +12,12 @@ If your answer is "yes"...
 ## Here are three simple actions you can take to support the Union St. PBL and other walk/bike/skate+ friendly projects in Pasadena:
  
 {% for item in site.actionitems %}
-<h3 style="color:#91c346">{{ item.title }}</h3>
+{% if item.linkURL %}
+<h3 style="color:#91c346"><a href="{{ item.linkURL }}">{{ item.title }}</a></h3>
+{% else %}
+<h3 style="color:#91c346"> {{ item.title }}</h3>
+{% endif %}
+
 <!---<img src="{{ item.imgURL }}" class="img-fluid" style="padding:5px;"><br>--->
 {{ item.content }}
 {% endfor %}
