@@ -29,6 +29,7 @@ github_username:  pas-csc
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 permalink: :title/
 future: true
 sass:
@@ -53,3 +54,12 @@ collections:
   actionitems:
     output: false
     permalink: /:collection/:path/
+  posts:
+    output: true
+    permalink: /blog/:path/
+# Blog pagination settings
+paginate: 3
+paginate_path: /blog/page:num/
+str_next_page: "Older"  
+str_previous_page: "Newer"
+pagination_nr: 3
