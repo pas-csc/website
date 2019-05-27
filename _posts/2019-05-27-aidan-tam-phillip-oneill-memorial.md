@@ -8,7 +8,7 @@ tags:
 - memorials
 ---
 
-*Editor's Note: The following pieces were originally published in our newsletter on May 27, 2019. You can subscribe to that newsletter [here]({{ site.url }}/newsletter/).*
+*Editor's Note: The following pieces were originally published in our newsletter on May 28, 2019. You can subscribe to that newsletter [here]({{ site.url }}/newsletter/).*
 
 ## Remembering Aidan Tam
 
