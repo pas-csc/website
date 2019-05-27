@@ -1,6 +1,6 @@
 ---
 title: "2019: Remembering Aidan Tam and Phillip O'Neill"
-date: 2019-05-27
+date: 2019-05-28
 url: aidan-tam-phillip-oneill-2019
 tags:
 - "why we work"
