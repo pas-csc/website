@@ -1,5 +1,5 @@
 ---
-title: "Success for Safer Streets in NW Pasadena!"
+title: "2019: Remembering Aidan Tam and Phillip O'Neill"
 date: 2019-05-27
 url: aidan-tam-phillip-oneill-2019
 tags:
