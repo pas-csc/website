@@ -1,6 +1,6 @@
 ---
 title: "2019: Remembering Aidan Tam and Phillip O'Neill"
-date: 2019-05-28
+date: 2019-05-27
 url: aidan-tam-phillip-oneill-2019
 tags:
 - "why we work"
@@ -8,7 +8,7 @@ tags:
 - memorials
 ---
 
-*Editor's Note: The following pieces were originally published in our newsletter on May 28, 2019. You can subscribe to that newsletter [here]({{ site.url }}/newsletter/).*
+*Editor's Note: The following pieces were originally written for our May 28, 2019 newsletter. You can subscribe to that newsletter [here]({{ site.url }}/newsletter/).*
 
 ## Remembering Aidan Tam
 
