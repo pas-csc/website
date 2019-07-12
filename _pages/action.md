@@ -1,18 +1,16 @@
 ---
 layout: staticalerttarget
-title: 'Action Alert: Support Our Growing Bicycle Network!'
+title: 'Action Alert: Support Bus Rapid Transit and Our Bicycle Network!'
 markdown: kramdown
 ---
 
-Updated May 10, 2019.
+Updated July 12, 2019.
 
-# Do you want safer streets? Would you like to comfortably ride a bike, skateboard, scooter, or other wheeled device in Pasadena?
+# Do you believe the future of transportation in Pasadena and LA should be multi-modal?
 
 If your answer is "yes"...
 
-# SUPPORT FUNDING FOR PASADENA'S BICYCLE NETWORK! 
-
-## Here are {{ site.actionitems.size }} simple actions you can take to ensure that an accessible network of walk/bike/skate+ friendly projects is installed in Pasadena:
+## Here are {{ site.actionitems.size }} simple actions you can take to be the change:
  
 {% for item in site.actionitems %}
 {% if item.linkURL %}
@@ -23,8 +21,9 @@ If your answer is "yes"...
 
 <!---<img src="{{ item.imgURL }}" class="img-fluid" style="padding:5px;"><br>--->
 {{ item.content }}
+<hr>
 {% endfor %}
  
-### Thank you for standing up for safe streets! If you'd like to keep in touch, please consider signing up for monthly updates below.
+### Thanks for standing up for multi-modal transportation and safe streets! If you'd like to keep in touch, please consider signing up for monthly updates below.
 
 {% include mailchimp.html %}
