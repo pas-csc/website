@@ -12,7 +12,7 @@ tags:
 
 ## Remembering Aidan Tam
 
-![A flyer asking people to enjoy a boba drink on May 31, 2019 in memory of Aidan Tam. #Boba4Aidan]({{ site.url }}/blog/img/boba4aidanflyer.png)
+<img class="img-fluid" alt="A flyer asking people to enjoy a boba drink on May 31, 2019 in memory of Aidan Tam. #Boba4Aidan" src="{{ site.url }}/blog/img/boba4aidanflyer.png" />
 
 Five years ago this month, a turning driver hit and killed 7 year old **Aidan Tam** in Pasadena. His family was forever changed. Aidan loved boba, and today, #Boba4Aidan honors his life and everyone impacted by preventable traffic deaths.
 

@@ -12,8 +12,8 @@ On September 16th and October 21st, we transformed curbside public parking space
 Art Night. Our purpose was to invite passers-by to question and re-imagine how we use our publicly-owned spaces, and to demonstrate how much fun, creativity, and community participation can happen in the square footage and 2 hours that we normally use to store a car. 
 
 The highlight of our September 16 parklet was a visit (and performance) by [Kodama Taiko](https://www.facebook.com/kodamataikopasadena) of the Pasadena JACCC!
-![A taiko drumming group performs in a park made from a standard parking space]({{ site.url }}/blog/img/220651009.jpg?1483172438)
 
+<img class="img-fluid" alt="A taiko drumming group performs in a park made from a standard parking space" src="{{ site.url }}/blog/img/220651009.jpg?1483172438" />
 
 ### Bike to Work Day
 On May 19, we hosted a pit stop at the Arroyo Food Co-Op in support of all folks who chose to celebrate Bike to Work Day (by biking to work, of course!) In addition to handing out homemade scones, fruit, energy bars, bike lights, and other treats, we invited visitors to share their thoughts on ideas for beautifying the nearby Wilson Avenue overpass with art and greenery.
@@ -24,7 +24,7 @@ The only thing better than being able to comfortably bike to an Open Streets eve
 ### Walktober Tours
 For Walktober, the Coalition sponsored two excellent and well-attended walks. On October 15, Pasadena CSC sponsored a Public Art Tour of Pasadena by Meriel Stern, Arts and Culture Commissioner.  About 20 people enjoyed learning more about Pasadena's public art, with an emphasis on ceramics. On October 22, Pasadena CSC sponsored a Pasadena Architecture tour. Local architect Wade Frazier led an extensive walking tour through Madison Heights and Caltech.  The tour was especially well-attended with over 35 attendees (including 3 dogs!)
 
-![A large group of people on a walk]({{ site.url }}/blog/img/architecturewalk.jpg)
+<img class="img-fluid" alt="A large group of people on a walk" src="{{ site.url }}/blog/img/architecturewalk.jpg" />
 
 *Photo: Wade Frazier leads a group through an architecture tour of Madison Heights.*
 
@@ -36,8 +36,7 @@ Photo: N. Fair Oaks community members conduct a walking audit at the corner of N
 
 Bicycling and walking are fun, healthy and sustainable modes of transportation, and we strongly believe that everyone should be able to ride and walk in comfort and safety. Unfortunately, too often people who walk and bike are vulnerable to collisions with people driving cars.  As we move towards the goal of Vision Zero for Pasadena, we remember those we have lost.  We held memorials for two Pasadena cyclists that were killed in the past five years (Phillip O'Neill and Alan Deane) and we held Pasadena's first Day of Remembrance for Road Traffic Victims on a rainy November 20th evening at City Hall.
 
-![Candles and photos are arranged at a vigil for victims of traffic crashes]({{ site.url }}/blog/img/2aa0c5b1-8d4c-4321-8605-329adaf7709b.jpg?1483172557)
-
+<img class="img-fluid" alt="Candles and photos are arranged at a vigil for victims of traffic crashes" src="{{ site.url }}/blog/img/2aa0c5b1-8d4c-4321-8605-329adaf7709b.jpg?1483172557" />
 
 ### Be a part of the action in 2017!
 
