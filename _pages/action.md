@@ -4,7 +4,7 @@ title: 'Action Alert: Support Bus Rapid Transit and Our Bicycle Network!'
 markdown: kramdown
 ---
 
-Updated July 17, 2019.
+Updated July 19, 2019.
 
 # Do you believe the future of transportation in Pasadena and LA should be multi-modal?
 
