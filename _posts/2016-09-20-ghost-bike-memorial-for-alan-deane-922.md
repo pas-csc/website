@@ -2,12 +2,13 @@
 title: "Ghost Bike Memorial for Alan Deane 9/22"
 date: 2016-09-20
 url: ghost-bike-memorial-for-alan-deane-922
+author: Colin
 tags:
 - memorials
 - "why we work"
 ---
 
-![alt text]({{ site.url }}/blog/img/ghost-bike_orig.jpg)
+<img class="img-fluid" alt="A bicycle painted white to commemorate a cyclist killed by a driver" src="{{ site.url }}/blog/img/ghost-bike_orig.jpg" />
 
 Alan Deane was a much loved member of the Los Angeles and San Gabriel Valley bicycling communities. A talented musician and thoughtful activist, he was also a figure in numerous progressive groups, musicians' groups, and was a regular at KPCC's Crawford Family Forum.
 

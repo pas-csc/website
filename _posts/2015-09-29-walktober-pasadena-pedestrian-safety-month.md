@@ -2,6 +2,7 @@
 title: "Walktober - Pasadena Pedestrian Safety Month " 
 date: 2015-09-29 
 url: walktober-pasadena-pedestrian-safety-month 
+author: Blair
 tags:
 - walking
 
@@ -18,4 +19,4 @@ Led by DPNA President, Pasadena Transportation Commissioner, and expert walker J
 
 + Sun 10/25 (9am) - Colorado Blvd. Walk
 
-Explore Pasadena's iconic Colorado Boulevard from end-to-end with the founder of Walking Pasadena (  www.walkingpasadena.com  ) Sunday October 25th! An encore of a great walk the group did in 2014, the Colorado Boulevard tour will begin at the intersection of Sierra Madre Blvd and head west to cross the Colorado Street Bridge. Walkers will then have the choice of heading back to the start,  or hopping on one of many Metro and Foothill Transit buses (fare $1.75) that traverse the corridor back to the starting point. Guided by Sarah Emery Bunn, the walk is 3.79 miles one way, approx 2 hours depending on your speed and how many times you stop to take photos.  *Meet at the corner of Sierra Madre & Colorado (in front of Vons) at 9AM.*
+Explore Pasadena's iconic Colorado Boulevard from end-to-end with the founder of [Walking Pasadena](https://walkingpasadena.com) Sunday October 25th! An encore of a great walk the group did in 2014, the Colorado Boulevard tour will begin at the intersection of Sierra Madre Blvd and head west to cross the Colorado Street Bridge. Walkers will then have the choice of heading back to the start,  or hopping on one of many Metro and Foothill Transit buses (fare $1.75) that traverse the corridor back to the starting point. Guided by Sarah Emery Bunn, the walk is 3.79 miles one way, approx 2 hours depending on your speed and how many times you stop to take photos.  *Meet at the corner of Sierra Madre & Colorado (in front of Vons) at 9AM.*

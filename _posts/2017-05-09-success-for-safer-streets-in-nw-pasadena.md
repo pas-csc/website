@@ -2,6 +2,7 @@
 title: "Success for Safer Streets in NW Pasadena!"
 date: 2017-05-09
 url: success-for-safer-streets-in-nw-pasadena
+author: Blair
 tags:
 - community
 - NFO

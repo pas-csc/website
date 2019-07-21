@@ -1,9 +1,12 @@
 ---
 layout: static
-title: {{ post.title }}
-date: {{ post.date }}
-categories: {{ post.categories }}
-tags: {{ post.tags }}
-url: {{ post.url }}
 ---
-  {{ content }}
+
+<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+<p>Posted by {{ page.author }} on <strong>{{ page.date | date: "%A, %B %-d, %Y" }}</strong></p>
+{{ page.content }}
+{% if page.tags != empty %}
+    <p>Tags: {{ page.tags | sort_natural | join:', ' }}</p>
+{% endif %}
+
+{% include mailchimp.html %}

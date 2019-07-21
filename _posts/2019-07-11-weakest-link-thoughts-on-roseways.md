@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "Only as good as its weakest link: thoughts on Pasadena's Roseways"
 date: 2019-07-12
 url: weakest-link-roseways
+author: John
 tags:
 - infrastructure
 - criticism
@@ -22,7 +24,7 @@ I always do a bit of research on Google Maps before riding an area I haven't bik
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d181.15585009846083!2d-118.1461305928072!3d34.12754489878658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c49b5d40536b%3A0xc76c2738711ccf3a!2s199-183+E+Glenarm+St%2C+Pasadena%2C+CA+91105!5e1!3m2!1sen!2sus!4v1562996528053!5m2!1sen!2sus" width="800" height="250" frameborder="0" style="border:0;max-width:100%" allowfullscreen></iframe>
 
-*The Google Maps satellite view of Glenarm shows that while buffered bike lanes are present on Glenarm for two blocks east of Marengo, there are no bike facilities on the block between Marengo and Arroyo Parkway, and only sharrows between Arroyo and Fair Oaks. The portion of Glenarm between Fair Oaks to Marengo is adjacent to the 110 freeway terminus, and is usually busy as people rush to get on or off the freeway.*
+*The Google Maps satellite view of Glenarm shows that while buffered bike lanes are present on Glenarm for five blocks east of Marengo, there are no bike facilities on the block between Marengo and Arroyo Parkway, and only sharrows between Arroyo and Fair Oaks. The portion of Glenarm between Fair Oaks to Marengo is adjacent to the 110 freeway terminus, and is usually busy as people rush to get on or off the freeway.*
 
 <img class="img-fluid" alt="A photo of E. Glenarm St. just west of Marengo" src="{{ site.url }}/blog/img/glenarmwest.png" />
 

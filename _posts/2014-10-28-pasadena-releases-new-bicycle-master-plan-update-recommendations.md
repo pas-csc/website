@@ -2,6 +2,7 @@
 title: "Pasadena Releases New Bicycle Master Plan Recommendations"
 date: 2014-10-28
 url: pasadena-releases-new-bicycle-master-plan-update-recommendations
+author: Wes
 ---
 
 It's been a long road since PasCSC founders attended the Municipal Services Committee in July 2013 to respectfully ask City leaders and staff to strengthen the City's draft Bicycle Master Plan by including a network of protected and buffered bicycle lanes.  Over that period of time, City staff convened a Bicycle Advisory Committee, commissioned a Protected Bikeway Feasibility Study by KOA Corporation, convened a series of public meetings, and even had a consultant develop a "Level of Traffic Stress Map on Existing and Proposed On-Street Bike Routes."

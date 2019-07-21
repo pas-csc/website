@@ -2,6 +2,7 @@
 title: "CA Walks - Pedestrian Safety Workshop" 
 date: 2015-06-29 
 url: ca-walks-pedestrian-safety-workshop 
+author: Wes
 ---    
 
 On Saturday, May 9th, PasCSC co-hosted a California Walks-facilitated pedestrian safety workshop with the Downtown Pasadena Neighborhood Association, Stop 4 Aidan, and Day One. The workshop had 3 objectives:  

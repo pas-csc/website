@@ -2,6 +2,7 @@
 title: "Remembering Phillip O'Neill"
 date: 2014-06-07
 url: june-15-commemorative
+author: Blair
 tags:
 - memorials
 ---

@@ -2,6 +2,7 @@
 title: "In joy, sadness, anger...and hope"
 date: 2014-06-07
 url: in-joy-sadness-anger-and-hope
+author: Ace
 tags:
 - "why we work"
 - memorials

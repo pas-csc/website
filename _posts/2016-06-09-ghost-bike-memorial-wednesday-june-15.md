@@ -2,6 +2,7 @@
 title: "Memorial Gathering for Phillip O'Neill" 
 date: 2016-06-09 
 url: ghost-bike-memorial-wednesday-june-15 
+author: Ace
 tags:
 - memorials
 - "why we work"

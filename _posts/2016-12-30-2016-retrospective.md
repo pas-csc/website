@@ -2,6 +2,7 @@
 title: "2016 Retrospective"
 date: 2016-12-30
 url: 2016-retrospective
+author: Ace
 ---
 Happy New Year, everyone! As we move on to 2017, we thought we'd take a look back at 2016 to remember where we've been and what we've done. July 2016 marked the beginning of our third year as a coalition, and while that in itself is a reason to celebrate...we're surprised and proud to see how *much* we actually accomplished in this past year, with little more than our enthusiasm, the past two years of experience, and sheer determination. A short selection of our activities:
 

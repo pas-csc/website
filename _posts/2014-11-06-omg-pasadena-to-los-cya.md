@@ -2,6 +2,7 @@
 title: "OMG! Pasadena to LOS: CYA!"
 date: 2014-11-06
 url: omg-pasadena-to-los-cya
+author: Wes
 ---
 
 On Monday, November 3rd at about 10pm, the Pasadena City Council bid farewell to auto Level of Service (LOS), a transportation metric that is a driving force behind auto-centric street design.  In doing so, Pasadena became the first city in Southern California (to our knowledge) to retire LOS as a transportation measure.
