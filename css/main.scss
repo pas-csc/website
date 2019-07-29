@@ -125,6 +125,7 @@ textarea{
 	text-align: right;
 	color: #666;
     border-left: 3px solid #ccc;
+    font-family: 'Oswald', sans-serif;
 }
 
 @media only screen and (max-width: 576px) {
@@ -140,7 +141,8 @@ textarea{
 	border-top: 3px solid #ccc;
     border-bottom: 3px solid #ccc;
     border-left: none;
-}
+    font-family: 'Oswald', sans-serif;
+    }
 }
 .actionitem {
     display: block;
