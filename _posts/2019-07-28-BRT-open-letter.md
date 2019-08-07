@@ -26,7 +26,7 @@ We think it is important to name this dynamic when we see it. Below is a letter 
 
 Dear Tom Wait,
 
-We met briefly at Metro's scoping meeting in Pasadena on the NoHo to Pasadena BRT, and I am writing in response to your [your coverage](https://losangeles.cbslocal.com/2019/07/10/eagle-rock-residents-voice-concerns-over-proposed-metro-bus-line/). 
+We met briefly at Metro's scoping meeting in Pasadena on the NoHo to Pasadena BRT, and I am writing in response to [your coverage](https://losangeles.cbslocal.com/2019/07/10/eagle-rock-residents-voice-concerns-over-proposed-metro-bus-line/). 
 
 Your story overstates the opposition to the BRT while downplaying its support. Jeff Michael begins by stating that "a lot of residents were upset" about the proposed BRT. Since you sat next to me for the entirety of the meeting, I know you know that the overwhelming majority of people who spoke at Wednesday's meeting support the project. Limited transportation options impeded transit-dependent Eagle Rock residents from attending a meeting in Pasadena about public transit, underscoring the need for the BRT. 
 
