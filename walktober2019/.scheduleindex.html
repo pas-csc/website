@@ -1,32 +1,12 @@
 ---
-layout: walktober
-title: Walktober 2018
+layout: static
+title: Walktober 2019
 ---
-<!--Modal (pop-up) to alert folks to go to 2019 page-->
-<div class="modal" id="redirectModal" tabindex="-1" role="dialog" aria-labelledby="Dialogue asking if you would like to be redirected to the 2019 event website">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <p>Thanks for visiting our Walktober 2018 website! Would you like to see <a href="{{ site.url }}/walktober2019/">2019's event schedule</a> instead?</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" id="redirectButton">Yes, take me to 2019!</button>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">No thanks.</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
 <!--Logo Area-->
 <div id="pagetop" style="padding-top:30px;">
   <div class="row"> 
     <div class="col">
-    <p class="text-danger text-center font-weight-bold"><em>Looking for new events? <a href="{{ site.url }}/walktober2019/">See our Walktober 2019 schedule here!</a></em></p>
-      <h1 class="display-4 text-center">Walktober 2018<br>A Celebration of Walking in Pasadena</h1>
+      <h1 class="display-4 text-center">Walk your city, rock your world!<br>Walktober 2019</h1>
     </div>
   </div>
   
@@ -38,11 +18,11 @@ title: Walktober 2018
         <div class="col-auto"><img src="{{ site.url }}/img/walktober/dayone-logo.jpg" width="133px" alt="Day One"></div>
         </div>
       <h3 class="text-center">in collaboration with:</h3>
-      <p class="text-center"><img src="{{ site.url }}/img/walktober/artwalk-logo.png" width="150px" alt="Pasadena ArtWalk"> 
-      <img src="{{ site.url }}/img/walktober/opmd-logo.png" width="150px" alt="Old Pasadena Management District">
-      <img src="{{ site.url }}/img/walktober/pasadenaheritage-logo.jpg" width="230px" alt="Pasadena Heritage">
-      <img src="{{ site.url }}/img/walktober/pwt-logo.png" width="150px" alt="Pasadena Walking Tours"> 
-      <img src="{{ site.url }}/img/walktober/jaycees-logo.jpg" width="150px" alt="Pasadena Jaycees"> 
+      <p class="text-center"><img src="{{ site.url }}/img/walktober/artwalk-logo.png" width="200px" alt="Pasadena ArtWalk"> 
+      <img src="{{ site.url }}/img/walktober/opmd-logo.jpg" width="200px" alt="Old Pasadena Management District">
+      <img src="{{ site.url }}/img/walktober/pasadenaheritage-logo.jpg" width="200px" alt="Pasadena Heritage">
+      <img src="{{ site.url }}/img/walktober/pwt-logo.png" width="100px" alt="Pasadena Walking Tours"> 
+      <img src="{{ site.url }}/img/walktober/jaycees-logo.jpg" width="100px" alt="Pasadena Jaycees"> 
       <img src="{{ site.url }}/img/walktober/club21-logo.jpg" width="200px" alt="Club 21">
       <img src="{{ site.url }}/img/walktober/pphd-logo.jpg" width="200px" alt="Pasadena Public Health"></p>
       <p class="text-center">and the Pasadena Downtown Neighborhood Association, Pasadena Water and Power, and the Pasadena Citizen's Service Center.</p>
@@ -53,7 +33,7 @@ title: Walktober 2018
 <!--Poster-->
 <div id="poster" style="padding-top:30px;">
   <div class="row">
-    <div class="col text-center"><img src="{{ site.url }}/img/walktober/walktober2018.jpg" class="img-fluid"></div>  
+    <div class="col text-center"><img src="{{ site.url }}/img/walktober/walktober.jpg" class="img-fluid"></div>  
   </div>
   <div class="row">
       <div class="col text-center"><p><em>Poster credit: Adrian Kalvinskas, <A href="https://distantlandsblog.wordpress.com/" target="_blank" rel="noopener noreferrer">Distant Lands Pasadena</a></em></p></div>  
@@ -62,36 +42,34 @@ title: Walktober 2018
 
 <!--Calendar-->
 <div id="eventList" style="padding-top:30px;">
-<div class="alert alert-warning" role="alert">
-<em>Please note that these October 2018 events have passed, but you can <a href="{{ site.url }}/walktober2019/" class="alert-link">see our Walktober 2019 schedule here!</a></em>
-</div>
-<h1>Past Events</h1>
-{% for event in site.data.walkList2018 %}
+<h1>Events</h1>
+<p><a href="https://calendar.google.com/calendar/embed?src=e2951ldkd87chs8raacpep5648%40group.calendar.google.com&tab=mc&date=20181001" target="_blank" rel="noopener noreferrer">See these events in Google Calendar format.</a> (You can easily copy an event to your personal calendar by clicking on it, then clicking on the three dots.)</p>
+
+{% for event in site.data.walkData2019 %}
 <div class="card card-body mb-3">
   <div class="row">
     <div class="col-auto">
-        <div class="datebox">{{ event.Day }}<br>{{ event.Date }}</div>
+        <div class="datebox">{{ event.Day | date: %^a}}<br>{{ event.Date }}</div>
     </div>
     <div class="col">
         <div class="row"><div class="col">
-        <h2>{{ event.Name }} (Past)</h2>
+        <h2>{{ event."Walk name" }}</h2>
         </div></div>
         <div class="row"><div class="col">
-            <div class="infoblock"><p><i class="far fa-clock"></i> {{ event.Time }}</p></div>
-            <div class="infoblock"><p><i class="fas fa-dollar-sign"></i> {{ event.Price }}</p></div>
-            <div class="infoblock"><p><i class="fas fa-map-marker-alt"></i> {{ event.Meet }}{% if event.GMap!=nil %} (<a href="{{ event.GMap }}" target="_blank" rel="noopener noreferrer">Map</a>){% endif %}</p></div>
+            <div class="infoblock"><p><i class="far fa-clock"></i> {{ event."Start Time" | date: %l %p}}{% if event."End Time"=nil %} to {{ event."Start Time" | date: %l %p}}{% endif %}</p></div>
+            <div class="infoblock"><p><i class="fas fa-dollar-sign"></i> {{ event."Ticket Price" }}</p></div>
+            <div class="infoblock"><p><i class="fas fa-map-marker-alt"></i> {{ event."Meeting Location" }}{% if event.GMap!=nil %} (<a href="{{ event.GMap }}" target="_blank" rel="noopener noreferrer">Map</a>){% endif %}</p></div>
         </div></div>
     </div>
   </div>
   <div class="row">
     <div class="col">
-        <p><a data-toggle="collapse" href="#{{ event.Name | slice:0,3 }}-{{ event.Date }}-col" role="button" aria-expanded="false" aria-controls="{{ event.Name | slice:0,3}}-{{ event.Date }}-col">Details</a> {% if event.Page != nil %}| <a href="{{ event.Page }}" target="_blank" rel="noopener noreferrer">{{ event.PageType }}</a>{% endif %}{% if event.Tickets != nil %} | <a href="{{ event.Tickets }}" target="_blank" rel="noopener noreferrer">Tickets</a>{% endif %}</p>
+        <p><a data-toggle="collapse" href="#{{ event."Walk name" | slice:0,3 }}-{{ event.Date }}-col" role="button" aria-expanded="false" aria-controls="{{ event."Walk name" | slice:0,3}}-{{ event.Date }}-col">Details</a> {% if event."Info Page" != nil %}| <a href="{{ event."Info Page" }}" target="_blank" rel="noopener noreferrer">{{ event.PageType }}</a>{% endif %}{% if event.TicketURL != nil %} | <a href="{{ event.TicketURL }}" target="_blank" rel="noopener noreferrer">Tickets</a>{% endif %}</p>
             <div class="collapse" id="{{ event.Name | slice:0,3 }}-{{ event.Date }}-col">
-                <p>This event has passed -- check out <a href="{{ site.url }}/walktober2019/">our Walktober 2019 site</a> for more great events!</p>
                 {% if event.Detail1 != nil %}<p>{{ event.Detail1 }}</p>{% endif %}
                 {% if event.Detail2 != nil %}<p>{{ event.Detail2 }}</p>{% endif %}
                 {% if event.Detail3 != nil %}<p>{{ event.Detail3 }}</p>{% endif %}
-                {% if event.Partner =="Y" and event.Page != nil %}<p>This is a partner event, so please see our partner's <a href="{{ event.Page }}" target="_blank" rel="noopener noreferrer">event page</a> for the most up-to-date information.</p>{% endif %}
+                {% if event.Partner =="TRUE" %}<p>This is a partner event, so please see our partner's <a href="{{ event."Info Page" }}" target="_blank" rel="noopener noreferrer">event page</a> for the most up-to-date information.</p>{% endif %}
                 <p><em>Hosted by <a href="{{ event.OrgSite1 }}" target="_blank" rel="noopener noreferrer">{{ event.Org1 }}</a>{% if event.Org3 != nil %}, <a href="{{ event.OrgSite2 }}" target="_blank" rel="noopener noreferrer">{{ event.Org2 }}</a>, and <a href="{{ event.OrgSite3 }}" target="_blank" rel="noopener noreferrer">{{ event.Org3 }}</a>{% endif %}{% if event.Org2 != nil and event.Org3 == nil%} and <a href="{{ event.OrgSite2 }}" target="_blank" rel="noopener noreferrer">{{ event.Org2 }}</a>{% endif %}</em>.</p>
             </div>
     </div> 

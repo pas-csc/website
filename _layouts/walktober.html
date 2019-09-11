@@ -2,16 +2,19 @@
 <html>
 {% include head.html %}
   <body>
-{% include alert.html %} <!--Comment this line out when there are no alerts-->
+  <!--Top anchor-->
+<div id="pagetop"></div>
+<!---{% include alert.html %} <!--Comment out the contents of alert.html when there are no alerts-->
 {% include menu.html %}
-
-<div class="container" style="padding-top:30px;">
-<p><a href="{{ site.url }}">Home</a> / <strong>{{ page.title }}</strong></p>
-<hr>
-
+<div class="container" style="padding-top:20px;">
   {{ content }}
 </div>
-  
  {% include footer.html %}
+ <script type="text/javascript">
+    $('#redirectModal').modal('show');
+document.getElementById("redirectButton").onclick = function () {
+    location.href = "{{ site.url }}/walktober2019/";
+};
+</script>
   </body>
 </html>

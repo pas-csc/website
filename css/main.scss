@@ -7,12 +7,13 @@
 
 body{
     background-color:#f5f6de;
+    font-family: 'Montserrat', serif;
 }
 
 // Layout of alert bar and menu
 .alert {
     margin-bottom: 0em;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     }
 .navbar-brand {
     margin-right: 0.2em; //decrease
@@ -40,8 +41,6 @@ body{
 //custom fonts
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, {
     font-family: 'Oswald', sans-serif;
-    padding-bottom: 1rem;
-    padding-top: 1.5rem;
     }
 .nav-item {
     font-family: 'Oswald', sans-serif;
@@ -52,7 +51,10 @@ p, .p, .btn, li, .li, ol, .ol, label {
     }
 .lead  {
     font-size: 1.4em;
-    }    
+    }
+.footnote  {
+    font-size: 0.8em;
+    }   
 .footer {
     font-size:1em;
     margin:0;
@@ -80,14 +82,14 @@ p + p {
 }  
 
 // Walktober Datebox
-datebox, .datebox {
+datebox, .datebox, {
     background-image: linear-gradient(to bottom right, #ab3438, #d21c25);
     margin-bottom: 1em;
     color: $white;
     border-radius: 5%;
     text-weight: 800;
     text-align: center;
-    font-family: 'Raleway', serif;
+    font-family: 'Oswald', serif;
     font-size: 1.8em;
     width: 100px;
     height: 100px;
@@ -96,6 +98,14 @@ datebox, .datebox {
     vertical-align: middle;
     box-shadow: 5px 5px 15px #888888;
 }  
+.btn-walktober{
+    background-color: #d21c25;
+    color: $white;
+}
+.i-walk{
+    color:#d21c25;
+}
+
 .infoblock {
     padding-right:0.5em;
     display:inline-block;
