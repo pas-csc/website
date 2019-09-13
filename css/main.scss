@@ -118,6 +118,15 @@ datebox, .datebox {
 }  
 }
 
+.main-section{
+padding: 30px 0;
+}
+
+.contrast-section{
+background-color: $info;
+padding: 30px 0;
+}
+
 //Letter templates (actions)
 textarea{
     width: 100%;
