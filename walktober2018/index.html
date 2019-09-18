@@ -67,20 +67,15 @@ title: Walktober 2018
 </div>
 <h1>Past Events</h1>
 {% for event in site.data.walkList2018 %}
+<div class="card-header d-md-none date-header"><i class="far fa-calendar-plus"></i> {{ event.Day}}, October {{ event.Date }}<!--small--></div>
 <div class="card card-body mb-3">
   <div class="row">
-    <div class="col-auto">
-        <div class="datebox">{{ event.Day }}<br>{{ event.Date }}</div>
-    </div>
+    <div class="col-auto d-none d-md-block"><div class="datebox">{{ event.Day | slice:0,3 }}<br>{{ event.Date }}</div><!--lg--></div>
     <div class="col">
-        <div class="row"><div class="col">
         <h2>{{ event.Name }} (Past)</h2>
-        </div></div>
-        <div class="row"><div class="col">
             <div class="infoblock"><p><i class="far fa-clock"></i> {{ event.Time }}</p></div>
             <div class="infoblock"><p><i class="fas fa-dollar-sign"></i> {{ event.Price }}</p></div>
             <div class="infoblock"><p><i class="fas fa-map-marker-alt"></i> {{ event.Meet }}{% if event.GMap!=nil %} (<a href="{{ event.GMap }}" target="_blank" rel="noopener noreferrer">Map</a>){% endif %}</p></div>
-        </div></div>
     </div>
   </div>
   <div class="row">

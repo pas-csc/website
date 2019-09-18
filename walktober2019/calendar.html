@@ -1,0 +1,41 @@
+---
+layout: walktober
+title: Walktober 2019 Calendar View
+---
+<!--Header Area-->
+<div id="pagetop" style="padding-top:30px;">
+  <div class="row"> 
+    <div class="col text-center">
+    <h1 class="display-4">Walktober 2019 Calendar View</h1>
+    <p><a class="btn btn-walktober-sm my-3" href="../">Return to the main Walktober 2019 page</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="d-flex justify-content-center my-3">
+<!--Show on larger screens--->
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=e2951ldkd87chs8raacpep5648%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no" class="d-none d-md-block"></iframe>
+
+<!--Show on smaller screens-->
+<iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=e2951ldkd87chs8raacpep5648%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="400" height="600" frameborder="0" scrolling="no" class="d-md-none"></iframe>
+</div>
+<div class="text-center">
+<p><a href="https://calendar.google.com/calendar/embed?src=e2951ldkd87chs8raacpep5648%40group.calendar.google.com&ctz=America%2FLos_Angeles" target="_blank" rel="noopener noreferrer" class="btn btn-walktober-sm mb-3">Open in new window</a></p>
+<p>Got Outlook/iCal? Add our .ics calendar from your app:<br>
+<span id="icsURL" style="font-size:0.6em;">https://calendar.google.com/calendar/ical/e2951ldkd87chs8raacpep5648%40group.calendar.google.com/public/basic.ics</span><br>
+<button id="icsButton" data-clipboard-target="#icsURL" class="btn btn-walktober-sm btn-hover">Copy .ics URL to clipboard</button></p>
+</div>
+
+<!--Partner Area-->
+<div id="pagetop" style="padding-top:30px;">
+  <div class="row"> 
+    <div class="col text-center">
+    <img class="align-center mt-2 mb-3" src="{{ site.url }}/img/csc_logos/banner_small.jpg" width="300px" alt="Pasadena CSC">
+    <h3 class="text-center">Thanks for your interest in Walktober 2019 - a labor of love by Pasadena CSC and local community partners.</h3>
+    <p class="text-center"><a href="../" class="btn btn-walktober-sm mt-3">Return to the main Walktober 2019 page</a></p>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+<script>new ClipboardJS('#icsButton');</script>

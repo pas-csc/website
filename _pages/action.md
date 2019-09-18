@@ -1,5 +1,5 @@
 ---
-layout: staticalerttarget
+layout: staticnoalert
 title: 'Action Alert: Support Bus Rapid Transit and Our Bicycle Network!'
 markdown: kramdown
 ---
