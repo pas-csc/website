@@ -26,25 +26,12 @@ body{
     padding-left:0;
 }
 
-// Font scaling for mobile vs desktop
-@media only screen and (max-width: 576px) {
-   display-4, .display-4 {font-size: 2.5em;}
-   h1, .h1 {font-size: 2em;}
-   h2, .h2 {font-size: 1.8em;}
-  .btn {
-    white-space:normal !important;
-    word-wrap: break-word; 
-    word-break: normal;
-    }  
-}
 
 //custom fonts
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .nav-item {
     font-family: 'Oswald', sans-serif;
     }
-.nav-item {
-    font-family: 'Oswald', sans-serif;
-    }
+    
 p, .p, .btn, li, .li, ol, .ol, label {
     font-family: 'Montserrat', serif;
     font-size: 1.2em;
@@ -69,6 +56,20 @@ i {
 // a paragraph proceeded by another paragraph will have a top margin
 p + p {
     margin-top: 0.5em;
+}
+
+// Font scaling for mobile vs desktop
+@media only screen and (max-width: 576px) {
+   display-4, .display-4 {font-size: 2.5em;}
+   h1, .h1 {font-size: 2em;}
+   h2, .h2 {font-size: 1.8em;}
+   p, .p, .btn, li, .li, ol, .ol, label {font-size: 1em;}
+   .lead  {font-size: 1.2em;}
+  .btn {
+    white-space:normal !important;
+    word-wrap: break-word; 
+    word-break: normal;
+    }  
 }
 
 // Form Validation Errors
