@@ -168,9 +168,8 @@ textarea{
     }
 }
 .actionitem {
-    display: block;
 	padding: 10px;
+    margin: 10px;
 	width: auto;
-	color: #666;
-    border: 3px double $warning;
+    border: 3px double $primary;
 }
