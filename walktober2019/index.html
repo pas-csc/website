@@ -26,7 +26,7 @@ title: Walktober 2019
 <div id="walktoberBlurb" style="padding-top:30px;">
   <div class="row"> 
     <div class="col">
-    <p><strong>Walktober</strong> is an annual event to get people walking in Pasadena! Walking is a deeply human activity, and we're excited to offer a full slate of events that reflect a wide range of reasons and ways to enjoy walking. Whether you walk for physical health, mental health, to meet people, to see new things, or simply to get things things done (maybe all of the above!), we recognize and celebrate that as an excellent thing.</p>
+    <p><strong>Walktober</strong> is an annual event to get people walking in Pasadena! Walking is a deeply human activity, and we're excited to offer a full slate of events that reflect a wide range of reasons and ways to enjoy walking. Whether you walk for physical health, mental health, to meet people, to see new things, or simply to get things  done (maybe all of the above!), we recognize and celebrate that as an excellent thing.</p>
     </div>
   </div>
 </div>
@@ -39,10 +39,10 @@ title: Walktober 2019
         </div></div>
     <div class="row justify-content-center">
         <div class="col-md my-2 mx-1">
-        <div class="card text-center border-primary"><div class="card-body"><h1 class="card-title"><a href="https://www.facebook.com/pg/pasadenacsc/events/"><i class="fab fa-md fa-facebook-f i-walk"></i></a></h1><p>'Like' and follow @PasadenaCSC to see our events on Facebook and <a href="https://www.facebook.com/local">Local</a>.</p><a class="btn btn-walktober mb-3" href="https://www.facebook.com/pg/pasadenacsc/events/">Get events on Facebook</a></div></div>
+        <div class="card text-center border-primary"><div class="card-body"><h1 class="card-title"><a href="https://www.facebook.com/pg/pasadenacsc/events/"><i class="fab fa-md fa-facebook-f i-walk"></i></a></h1><p>'Like' and follow <a href="https://www.facebook.com/pg/pasadenacsc/events/">@PasadenaCSC</a> to see our events on Facebook and <a href="https://www.facebook.com/local">Local</a>.</p><a class="btn btn-walktober mb-3" href="https://www.facebook.com/pg/pasadenacsc/events/">Get events on Facebook</a></div></div>
         </div>
         <div class="col-md my-2 mx-1">
-        <div class="card text-center border-primary"><div class="card-body"><h1><a href="https://mailchi.mp/fd80ae17bb1f/sign-up-to-keep-up/"><i class="far fa-envelope i-walk"></i></a></h1><p>Sign up for our once-a-month newsletter to get an e-mail reminder on October 1st.</p><a class="btn btn-walktober mb-3" href="https://mailchi.mp/fd80ae17bb1f/sign-up-to-keep-up/">Get an e-mail reminder</a></div></div>
+        <div class="card text-center border-primary"><div class="card-body"><h1><a href="https://mailchi.mp/fd80ae17bb1f/sign-up-to-keep-up/"><i class="far fa-envelope i-walk"></i></a></h1><p>Sign up for our once-a-month newsletter to get an e-mail reminder on September 24th.</p><a class="btn btn-walktober mb-3" href="https://mailchi.mp/fd80ae17bb1f/sign-up-to-keep-up/">Get an e-mail reminder</a></div></div>
         </div>
         <div class="col-md my-2 mx-1">
         <div class="card text-center border-primary"><div class="card-body"><h1><a href="calendar.html"><i class="fas fa-calendar-alt i-walk"></i></a></h1><p>Copy events from our calendar to yours by selecting "copy to my calendar".</p><a class="btn btn-walktober mb-3" href="calendar/">View our Google Calendar</a></div></div>
@@ -51,8 +51,8 @@ title: Walktober 2019
 </div>
 
 <!--Calendar-->
-<div id="eventList" style="padding-top:30px;">
-<div class="actionitem"><p class="my-3 text-center lead">Pssst...we'll be announcing <em>even more</em> walks on <u>September 26</u>, so you might want to check back later! (<a href="#getNotifications">Subscribe above</a>, or maybe bookmark this page?)</p></div>
+<div id="eventList">
+<p class="actionitem text-center lead">Pssst...we'll be announcing <em>even more</em> walks on <u>September 26</u>, so you might want to check back later! (<a href="#getNotifications">Subscribe above</a>, or maybe bookmark this page?)</p>
 {% for event in site.data.walkData2019 %}
 {% if event.Day != nil %}
 <div class="card-header d-md-none date-header"><i class="far fa-calendar-plus"></i> {{ event.Day}}, October {{ event.Date | remove:"-Oct" }}<!--small--></div>
@@ -131,9 +131,9 @@ title: Walktober 2019
       <div class="col">
       <h1>About the Pasadena Complete Streets Coalition</h1>
       <p>Hi! We're a community advocacy group of folks who share a simple vision: a city where people can comfortably walk, bike, skate, and scoot, with cleaner air and safe, stress-free streets for everybody.</p>
-      <p>We advocate for Complete Streets, a state-of-the-art approach to transportation and street design that recognizes that people and communities benefit when streets are designed to be safe and functional for all kinds of people, rather than being designed for speed.</p> 
+      <p>We advocate for Complete Streets, a state-of-the-art approach to transportation and street design that recognizes that people and communities benefit when streets are designed to be safe and accessible for all kinds of people, rather than being designed for speed.</p> 
       <p>We think that walking is best when it's safe and fun, and we work on events, policies, and projects that embrace just that!</p> 
       <p><strong>Learn more about us at our website, <a href="{{ site.url }}/" target="_blank" rel="noopener noreferrer">www.pasadenacsc.org</a></strong></p>
-      <p><strong>Complete Streets</strong> has been widely embraced by over 1,300 communities and agencies nationwide. Learn more at the Federal Department of Transportation's Complete Streets website, <a href="https://www.transportation.gov/mission/health/complete-streets" target="_blank" rel="noopener noreferrer">www.transportation.gov/mission/health/complete-streets</a>.</p></div>  
+      <p><strong>Complete Streets</strong> has been widely embraced by over 1,300 communities and agencies nationwide. Learn more at the Federal Department of Transportation's <a href="https://www.transportation.gov/mission/health/complete-streets" target="_blank" rel="noopener noreferrer">Complete Streets website</a>.</p></div>  
   </div>
 </div>
