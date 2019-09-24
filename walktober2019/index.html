@@ -30,7 +30,7 @@ title: Walktober 2019
 <div id="walktoberBlurb" style="padding-top:30px;">
   <div class="row"> 
     <div class="col">
-    <p><strong>Walktober</strong> is an annual event to get people walking in Pasadena! Walking is a deeply human activity, and we're excited to offer a full slate of events that reflect a wide range of reasons and ways to enjoy walking. Whether you walk for physical health, mental health, to meet people, to see new things, or simply to get things  done (maybe all of the above!), we recognize and celebrate that as an excellent thing.</p>
+    <p><strong>Walktober</strong> is an annual event to get people walking in Pasadena! Walking is a deeply human activity, and we're excited to offer a full slate of events that reflect a wide range of reasons and ways to enjoy walking. Whether you walk for physical health, mental health, to meet people, to see new things, or simply to get things done (maybe all of the above!), we recognize and celebrate that as an excellent thing.</p>
     </div>
   </div>
 </div>
@@ -55,14 +55,19 @@ title: Walktober 2019
 </div>
 
 <!--Calendar-->
+<div class="actionitem" id="walkhelp">
+<p class= "text-center lead">Too many walks? Need some help finding the ones that match your specific interests? Check out our handy <a href="highlights/"> walk highlights list</a> for our recommendations.</p>
+<p class="text-center"><a class="btn btn-walktober-sm mt-1" href="highlights/">Get highlights and recommendations</a></p>
+<p class= "text-center lead">Need information on a specific topic?</p>
+<p class="text-center"><a class="btn btn-walktober-sm mt-1 mx-3" href="press-release/">Press release</a><a class="btn btn-walktober-sm mt-1 mx-3" href="mobility-FAQ/">Mobility FAQ</a></p></div>
+
 <div id="eventList">
-<p class="actionitem text-center lead">Pssst...we'll be announcing <em>even more</em> walks on <u>September 26</u>, so you might want to check back later! (<a href="#getNotifications">Subscribe above</a>, or maybe bookmark this page?)</p>
 {% for event in site.data.walkData2019 %}
 {% if event.Day != nil %}
 <div class="card-header d-md-none date-header"><i class="far fa-calendar-plus"></i> {{ event.Day}}, October {{ event.Date | remove:"-Oct" }}<!--small--></div>
 <div class="card card-body mb-3">
     <div class="row event-header">
-        <div class="col-auto d-none d-md-block"><div class="datebox">{{ event.Day | slice:0,3 }}<br>{{ event.Date | remove:"-Oct" }}</div><!--lg--></div>
+        <div class="col-auto d-none d-md-block"><div class="datebox">{{ event.Day | slice:0,3 }}<br>Oct {{ event.Date | remove:"-Oct" }}</div><!--lg--></div>
         <div class="col">
             <h2>{{ event.WalkName }}</h2>
             <div>
@@ -94,6 +99,41 @@ title: Walktober 2019
     </div></div>
 </div>
 {% endif %}
+{% endfor %}
+</div>
+
+<!--Courtesy tour listings-->
+<div id="addTours" style="padding-top:30px;">
+<h2>Additional October Walking Tours in Pasadena</h2>
+<p>Want more walks? Check out these walking tours hosted by some of our partners:</p>
+{% for event in site.data.otherWalks2019 %}
+<div class="card-header d-md-none date-header"><i class="far fa-calendar-plus"></i> {{ event.longDate }}<!--small--></div>
+<div class="card card-body mb-3">
+    <div class="row event-header">
+        <div class="col-auto d-none d-md-block"><div class="datebox">{{ event.shortDate }}</div><!--lg--></div>
+        <div class="col">
+            <h2>{{ event.WalkName }}</h2>
+            <div>
+                <div class="infoblock"><p><i class="far fa-clock"></i> {{ event.StartTime | date: "%l:%M %p" }}{% if event.EndTime!=nil %} to {{ event.EndTime | date: "%l:%M %p" }}{% endif %}</p></div>
+                <div class="infoblock"><p><i class="fas fa-dollar-sign"></i> {{ event.TicketPrice }}</p></div>
+                <div class="infoblock"><p><i class="fas fa-map-marker-alt"></i> {{ event.MeetingLocation }}{% if event.GMap!=nil %} (<a href="{{ event.GMap }}" target="_blank" rel="noopener noreferrer">Map</a>){% endif %}</p></div>
+            </div>
+                <p>
+                {% if event.InfoPage != nil %}<a href="{{ event.InfoPage }}" target="_blank" rel="noopener noreferrer">{{ event.PageType }}</a>{% endif %}
+                {% if event.TicketURL != nil %} | <a href="{{ event.TicketURL }}" target="_blank" rel="noopener noreferrer">Order Tickets</a>{% endif %}
+                </p>
+            </div></div>
+    <div class="row event-body"><div class="col">
+        <!--<p>{{ event.WebsiteTeaser }} -->(<a data-toggle="collapse" href="#{{ event.WebsiteID }}" role="button" aria-expanded="false" aria-controls="{{ event.WebsiteID }}">Details</a>)</p>
+        <div class="collapse" id="{{ event.WebsiteID }}">
+            <p>{{ event.Detail1 }}</p>
+            {% if event.Detail2 != nil %}<p>{{ event.Detail2 }}</p>{% endif %}
+            {% if event.Detail3 != nil %}<p>{{ event.Detail3 }}</p>{% endif %}
+            <p>This is a partner event, so please see our partner's <a href="{{ event.InfoPage }}" target="_blank" rel="noopener noreferrer">event page</a> for the most up-to-date information.</p>
+            <p><em>Hosted by <a href="{{ event.OrgSite1 }}" target="_blank" rel="noopener noreferrer">{{ event.PartnerOrg1 }}</a>{% if event.PartnerOrg3 != nil %}, <a href="{{ event.OrgSite2 }}" target="_blank" rel="noopener noreferrer">{{ event.PartnerOrg2 }}</a>, and <a href="{{ event.OrgSite3 }}" target="_blank" rel="noopener noreferrer">{{ event.PartnerOrg3 }}</a>{% endif %}{% if event.PartnerOrg2 != nil and event.PartnerOrg3 == nil %} and <a href="{{ event.OrgSite2 }}" target="_blank" rel="noopener noreferrer">{{ event.PartnerOrg2 }}</a>{% endif %}</em>.</p>
+        </div>
+    </div></div>
+</div>
 {% endfor %}
 </div>
 

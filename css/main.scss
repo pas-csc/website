@@ -99,6 +99,7 @@ p + p {
     vertical-align: middle;
     box-shadow: 5px 5px 15px #888888;
 }  
+
 .date-header {
     font-size: 1.4em;
     border-radius: 0;
@@ -131,6 +132,14 @@ p + p {
     margin-bottom:0.2em;
 }
 
+#centerhighlights{
+    width:560px;
+    margin:auto;
+}
+@media only screen and (max-width: 576px) {
+#centerhighlights{
+    width:100%;
+}}
 
 //Letter templates (actions)
 textarea{
