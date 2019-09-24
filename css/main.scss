@@ -136,9 +136,10 @@ p + p {
     width:560px;
     margin:auto;
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 560px) {
 #centerhighlights{
     width:100%;
+    margin:0;
 }}
 
 //Letter templates (actions)
