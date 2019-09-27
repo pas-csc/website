@@ -46,9 +46,6 @@ title: Walktober 2019
         <div class="card text-center border-primary"><div class="card-body"><h1 class="card-title"><a href="https://www.facebook.com/pg/pasadenacsc/events/"><i class="fab fa-md fa-facebook-f i-walk"></i></a></h1><p>'Like' and follow <a href="https://www.facebook.com/pg/pasadenacsc/events/">@PasadenaCSC</a> to see our events on Facebook and <a href="https://www.facebook.com/local">Local</a>.</p><a class="btn btn-walktober mb-3" href="https://www.facebook.com/pg/pasadenacsc/events/">Get events on Facebook</a></div></div>
         </div>
         <div class="col-md my-2 mx-1">
-        <div class="card text-center border-primary"><div class="card-body"><h1><a href="https://mailchi.mp/fd80ae17bb1f/sign-up-to-keep-up/"><i class="far fa-envelope i-walk"></i></a></h1><p>Sign up for our once-a-month newsletter to get an e-mail reminder on September 24th.</p><a class="btn btn-walktober mb-3" href="https://mailchi.mp/fd80ae17bb1f/sign-up-to-keep-up/">Get an e-mail reminder</a></div></div>
-        </div>
-        <div class="col-md my-2 mx-1">
         <div class="card text-center border-primary"><div class="card-body"><h1><a href="calendar.html"><i class="fas fa-calendar-alt i-walk"></i></a></h1><p>Copy events from our calendar to yours by selecting "copy to my calendar".</p><a class="btn btn-walktober mb-3" href="calendar/">View our Google Calendar</a></div></div>
         </div>
     </div>
@@ -58,8 +55,10 @@ title: Walktober 2019
 <div class="actionitem" id="walkhelp">
 <p class= "text-center lead">Too many walks? Need some help finding the ones that match your specific interests? Check out our handy <a href="highlights/"> walk highlights list</a> for our recommendations.</p>
 <p class="text-center"><a class="btn btn-walktober-sm mt-1" href="highlights/">Get highlights and recommendations</a></p>
-<p class= "text-center lead">Need information on a specific topic?</p>
-<p class="text-center"><a class="btn btn-walktober-sm mt-1 mx-3" href="press-release/">Press release</a><a class="btn btn-walktober-sm mt-1 mx-3" href="mobility-FAQ/">Mobility FAQ</a></p></div>
+<!---<p class= "text-center lead">Need information on a specific topic?</p>
+<p class="text-center"><a class="btn btn-walktober-sm mt-1 mx-3" href="press-release/">Press release</a><a class="btn btn-walktober-sm mt-1 mx-3" href="mobility-FAQ/">Accessibility FAQ</a></p>-->
+<p class="text-center"><strong>Please note that the "Pocket Parks" walk with Councilmember Hampton has been rescheduled to Saturday, October 26.</strong></p>
+</div>
 
 <div id="eventList">
 {% for event in site.data.walkData2019 %}
@@ -184,3 +183,41 @@ title: Walktober 2019
       <p><strong>Complete Streets</strong> has been widely embraced by over 1,300 communities and agencies nationwide. Learn more at the Federal Department of Transportation's <a href="https://www.transportation.gov/mission/health/complete-streets" target="_blank" rel="noopener noreferrer">Complete Streets website</a>.</p></div>  
   </div>
 </div>
+
+<!-- MailChimp Signup Form -->
+<!-- Validate JS with legacy browser support -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/validate@2.2.0/dist/validate.polyfills.min.js"></script>
+
+<div id="newsletter" style="margin-top:70px;padding:1em;background-color:#fefff1;">
+    <div class="row mb-3">
+        <div class="col">
+        <h2 class="my-3">Be the first to know about other events</h2>
+        <p class="lead">Walktober may only come once a year, but we walk, bike, and play together all year round!</p>
+        <p>Enter your e-mail address for monthly updates. We won't share your address with anyone else, and you can opt-out at any time:</p>
+        </div>
+    </div>
+<form data-validate action="https://pasadenacsc.us17.list-manage.com/subscribe/post?u=b8e8c7649f0f49bbaadd20167&amp;id=1e4effed8d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+<div class="row my-3">
+    <div class="col-md mb-1">
+	<label for="mce-FNAME" class="p">First Name: </label><br>
+    <input type="text" class="col-md" name="FNAME" id="mce-FNAME" required></div>
+    <div class="col-md mb-1">
+	<label for="mce-LNAME" class="p">Last Name: </label><br>
+    <input type="text" class="col-md" name="LNAME" id="mce-LNAME" required></div>
+    <div class="col-md mb-1">
+	<label for="mce-EMAIL" class="p">E-mail Address: </label><br>
+	<input type="email" class="col-md" name="EMAIL" id="mce-EMAIL" title="The email domain is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
+    </div>
+</div>
+
+<!-- bot signup protection-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b8e8c7649f0f49bbaadd20167_1e4effed8d" tabindex="-1" value=""></div>
+    <div class="row">
+        <div class="col"><input type="submit" value="Sign up free!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-walktober float-right mb-3"></div>
+    </div>
+</form>
+</div>
+
+<script>
+	validate.init();
+</script>
