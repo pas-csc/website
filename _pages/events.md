@@ -1,6 +1,7 @@
 ---
 layout: static
 title: Events
+redirect_to: https://www.pasadenacsc.org/walktober2019/
 markdown: kramdown
 ---
 # Pasadena Complete Streets Coalition Events
