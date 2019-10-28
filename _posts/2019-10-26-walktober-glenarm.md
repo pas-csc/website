@@ -37,7 +37,7 @@ We were pleased to collaborate with Pasadena Water and Power (PWP) to offer Walk
 
 *This is Part 2 of a series on Walktober 2019:*
 
-*Part 1*: [Reflections on Why We Walktober]({{ site.url }}/blog/2019-10-23-reflections-walktober-2019)  
-*Part 2*: [Glenarm Power Plant: Seeing Things Anew]({{ site.url }}/blog/2019-10-26-walktober-glenarm/)  
-*Part 3*: [People, Plants, and Water: Caring for the Future Together]({{ site.url }}/blog/2019-10-28-walktober-water)  
-*Part 4*: [Bridges: Restoring Balance to a Wounded World]({{ site.url }}/blog/2019-10-29-walktober-bridges/)
+**Part 1**: [Reflections on Why We Walktober]({{ site.url }}/blog/2019-10-23-reflections-walktober-2019)  
+**Part 2**: [Glenarm Power Plant: Seeing Things Anew]({{ site.url }}/blog/2019-10-26-walktober-glenarm/)  
+**Part 3**: [People, Plants, and Water: Caring for the Future Together]({{ site.url }}/blog/2019-10-28-walktober-water)  
+**Part 4**: [Bridges: Restoring Balance to a Wounded World]({{ site.url }}/blog/2019-10-29-walktober-bridges/)
