@@ -13,6 +13,7 @@ tags:
 - "Pasadena Water and Power"
 
 ---
+<img class="img-fluid" alt="Children stand on top of a Hugelkulture mound at the side of a bioswale" src="{{ site.url }}/blog/img/waterwise.jpg" />
 
 When snowpack melts off the San Gabriel Mountains, and whenever it rains in Altadena and Pasadena, the water seeps down into the ground to refill the Raymond Basin, the giant underground aquifer that provides 40% of Pasadena's water. 
 
