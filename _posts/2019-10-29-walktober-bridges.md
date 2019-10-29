@@ -13,7 +13,7 @@ tags:
 
 *"With its flowing streams, lush vegetation, and preponderance of wildlife, this part of the Arroyo [beneath the Colorado St. Bridge] has the potential to be a wonderful natural area just a minutes away from Old Town Pasadena. But it has been seriously damaged with badly planned construction, dams, and drainage. As you walk along the trails you smell beautiful plants and flowers along with the stench of a sewer.*
 
-*"Looking at the three amazing and beautiful arching columns supporting the famous bridge, I thought that if we could create such a majestic and beautiful structure above - surely we could do better to restore the Arroyo below to its natural beauty. The conflict between technological progress and ecological treasures such as the Arroyo is what inspired me to compose ['Bridges: An Ecological Tone Poem'](https://www.youtube.com/watch?v=1RgySAShbsY)."* 
+*"Looking at the amazing and beautiful arching columns supporting the famous bridge, I thought that if we could create such a majestic and beautiful structure above - surely we could do better to restore the Arroyo below to its natural beauty. The conflict between technological progress and ecological treasures such as the Arroyo is what inspired me to compose ['Bridges: An Ecological Tone Poem'](https://www.youtube.com/watch?v=1RgySAShbsY)."* 
 
 -- Composer Cary Belling, March 2018 ([SoundCloud](https://soundcloud.com/carybelling/tracks))
 
@@ -36,6 +36,8 @@ Complete Streets is about more than a bike lane or crosswalk -- it's about *surv
 And it's about finding a way to get there gracefully, like the arches soaring high above the Arroyo and the sage standing tall beneath it.
 
 <img class="img-fluid" alt="Arroyo" src="{{ site.url }}/blog/img/bridges.jpg" />
+
+Watch [a recorded performance of Bridges](https://www.youtube.com/watch?v=1RgySAShbsY) by the San Fernando Valley Symphony Orchestra.
 
 
 *This is Part 4 of a series on Walktober 2019:*
