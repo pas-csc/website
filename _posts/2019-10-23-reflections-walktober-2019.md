@@ -26,7 +26,7 @@ Pasadena is a beautiful city, but it’s also consistently ranked within the [to
 
 When [Michelle](https://www.facebook.com/pasadenacsc/photos/a.569340963125675/2591591194233965/) and [Anthony](https://www.instagram.com/p/B3YAckLBkCm/) were killed by drivers while walking, within days of each other and the start of Walktober, that wrongness became unavoidably visceral. Neither of these people should have been killed, and yet we saw people rush to justify their deaths as unavoidable. 
 
-In this context, Walktober has become more than a celebration -- it has also become an *act of witness and faith*. We are so far from a *culture of care for people who walk and bike in this city*. And so we continue to walk, one step at a time, toward the culture of respect, fairness, and consideration that we want to see in Pasadena. 
+In this context, Walktober has become more than a celebration -- it's also become an *act of witness and faith*. We are so far from a *culture of care for people who walk and bike in this city*. And so we continue to walk, one step at a time, toward the culture of respect, fairness, and consideration that we want to see in Pasadena. 
 
 Walktober has also become an act of *unexpected healing and connection*. In the process of planning and presenting Walktober, we worked and met with so many Pasadenans who demonstrated a deep open-heartedness and desire to learn, explore, and build something beautiful. We are awed by and grateful for all of the many partners and attendees who made this month a success, and who brought us to another place we hadn't anticipated.
 
