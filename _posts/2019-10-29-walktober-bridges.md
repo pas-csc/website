@@ -33,7 +33,7 @@ So it's with ferocious love for ourselves and all of you that we, Pasadena CSC, 
 
 Complete Streets is about more than a bike lane or crosswalk -- it's about *survival*. It's about finding a way that will let everyone get home to their loved ones at the end of the day -- whether we're talking about one person's grandmother crossing the street tonight, or our future selves trying to make a living in 2050. 
 
-And it's about finding a way to get there gracefully, like the arches soaring above the Arroyo and the sage standing tall beneath it.
+And it's about finding a way to get there gracefully, like the arches soaring high above the Arroyo and the sage standing tall beneath it.
 
 <img class="img-fluid" alt="Arroyo" src="{{ site.url }}/blog/img/bridges.jpg" />
 
