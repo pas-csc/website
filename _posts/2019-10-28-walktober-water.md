@@ -4,6 +4,7 @@ title: "People, Plants, and Water: Caring for the Future Together"
 date: 2019-10-28
 url: water-walktober-2019
 image: /blog/img/waterwise.jpg
+excerpt: "We hope to leave a better world with reliable, clean water and safe, walkable streets to all of our children -- and to ourselves as well."
 author: Candace Seu
 tags:
 - "why we work"
@@ -18,7 +19,7 @@ tags:
 
 When snowpack melts off the San Gabriel Mountains, and whenever it rains in Altadena and Pasadena, the water seeps down into the ground to refill the Raymond Basin, the giant underground aquifer that provides 40% of Pasadena's water. 
 
-The water that falls on impermeable street surfaces are swept to the ocean, lost to us forever; but the water that falls on soil remain in our ecosystem and eventually percolate down into our reservoir. It's a gift that nourishes life, *if we're prepared to receive it*.
+The water that falls on impermeable street surfaces is swept to the ocean, lost to us forever; but the water that falls on soil remain in our ecosystem and eventually percolate down into our reservoir. It's a gift that nourishes life, *if we're prepared to receive it*.
 
 Our walk started with a simple idea: we wanted to highlight the Pasadena Public Health Department and Pasadena Water and Power's [new hydration station](https://ww5.cityofpasadena.net/water-and-power/hydration-stations/) at La Pintoresca Park, and connect that with the water-wise plantings at nearby Washington Elementary and Washington Park. Both locations showcase the use of [bioswales](https://nacto.org/publication/urban-street-design-guide/street-design-elements/stormwater-management/bioswales/) to *receive*, collect, and filter water into Pasadena's aquifer, and the use of [California native plants](https://theodorepayne.org/) to support the birds, insects, and butterflies that quietly enrich our ecosystem and sustain our human lives. Bioswales and native plants are an important part of the Complete Streets toolkit for greener, healthier, water-wise streets.
 
