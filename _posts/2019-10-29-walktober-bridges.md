@@ -19,7 +19,7 @@ tags:
 
 When Cary introduced his [ecological tone poem](https://www.youtube.com/watch?v=1RgySAShbsY) at our October 13th walk beneath the Colorado St. Bridge, he spoke of ascending scales representing the arches of the bridge, pounding steel rebar-derived percussion to evoke human-made construction and destruction, and musical leitmotifs layered backwards and forwards. He also asked a question: 
 
-<div class="pulledquote">Complete Streets is about more than a bike lane or crosswalk -- it's about <em>survival</em>. It's about finding a way that will let everyone get home to their loved ones at the end of the day - whether we're talking about one person's grandmother crossing the street tonight, or our future selves trying to make a living in 2050.</div>
+<div class="pulledquote">Complete Streets is about more than a bike lane or crosswalk -- it's about <em>survival</em>. It's about finding a way that will let everyone get home to their loved ones at the end of the day -- whether we're talking about one person's grandmother crossing the street tonight, or our future selves trying to make a living in 2050.</div>
 
 **How do we balance the immediate needs and desires of our human society with the long term health of our ecosphere and planet?** 
 
@@ -31,7 +31,7 @@ At this point, it's impossible to pretend that we don't need to change *somethin
 
 So it's with ferocious love for ourselves and all of you that we, Pasadena CSC, say *Enough!* Our work, and Walktober, is about searching for a kinder, more life-affirming and forgiving way for everyone to get around the city, and reclaiming *hope and joy* in the process.
 
-Complete Streets is about more than a bike lane or crosswalk -- it's about *survival*. It's about finding a way that will let everyone get home to their loved ones at the end of the day - whether we're talking about one person's grandmother crossing the street tonight, or our future selves trying to make a living in 2050. 
+Complete Streets is about more than a bike lane or crosswalk -- it's about *survival*. It's about finding a way that will let everyone get home to their loved ones at the end of the day -- whether we're talking about one person's grandmother crossing the street tonight, or our future selves trying to make a living in 2050. 
 
 And it's about finding a way to get there gracefully, like the arches soaring above the Arroyo and the sage standing tall beneath it.
 
