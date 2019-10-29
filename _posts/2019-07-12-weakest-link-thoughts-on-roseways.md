@@ -3,7 +3,8 @@ layout: post
 title: "Only as good as its weakest link: thoughts on Pasadena's Roseways"
 date: 2019-07-12
 url: weakest-link-roseways
-author: John
+image: /blog/img/glenarmwest.png
+author: John Lloyd
 tags:
 - infrastructure
 - criticism

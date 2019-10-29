@@ -3,7 +3,8 @@ layout: post
 title: "People, Plants, and Water: Caring for the Future Together"
 date: 2019-10-28
 url: water-walktober-2019
-author: Candace S
+image: /blog/img/waterwise.jpg
+author: Candace Seu
 tags:
 - "why we work"
 - Walktober

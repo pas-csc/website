@@ -3,7 +3,8 @@ layout: post
 title: "Glenarm Power Plant: Seeing Things Anew"
 date: 2019-10-26
 url: glenarm-walktober-2019
-author: Blair Miller, Jeff Hall, and Candace S
+author: Blair Miller, Jeff Hall, and Candace Seu
+image: /blog/img/glenarm3.jpg
 tags:
 - "why we work"
 - walktober

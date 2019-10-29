@@ -3,6 +3,7 @@ layout: post
 title: "In memory of our friend, Alan Deane"
 date: 2019-09-03
 url: alan-deane-2019
+image: /blog/img/ghost-bike_orig.jpg
 author: Colin Bogart
 tags:
 - "why we work"

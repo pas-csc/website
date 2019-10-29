@@ -3,6 +3,7 @@ layout: post
 title: "Reflections on Why We Walktober"
 date: 2019-10-23
 url: reflections-walktober-2019
+image: /blog/img/cityhallwalk.jpg
 author: Candace S
 tags:
 - "why we work"

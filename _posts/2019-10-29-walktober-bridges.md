@@ -3,7 +3,8 @@ layout: post
 title: "Bridges: Restoring Balance to a Wounded World"
 date: 2019-10-29
 url: bridges-walktober-2019
-author: Cary Belling and Candace S
+images: /blog/img/bridges.jpg
+author: Cary Belling and Candace Seu
 tags:
 - "why we work"
 - Walktober
