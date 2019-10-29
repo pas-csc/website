@@ -12,7 +12,7 @@ tags:
 
 ---
 
-<img class="img-fluid" alt="The location sign in front of the Glenarm Power Plant" src="{{ site.url }}/blog/img/glenarm1.jpg" />
+<img class="img-fluid" alt="Two turbine towers rise above the Glenarm Power Plant" src="{{ site.url }}/blog/img/glenarm3.jpg" />
 
 Electric power is invisible to us - it’s one of the things we take for granted in a modern world.  When we plug the lamp into the wall socket, it simply turns on. What was once magical has become mundane. This tour inspires people to notice and appreciate the production of this essential force -- the electricity that powers our lives -- in a completely new way. 
 
@@ -22,7 +22,7 @@ In much the same way, we hope that Walktober allows people to think about walkin
 
 The center of the facility is a combined cycle turbine unit known as Gas Turbine 5 (GT-5), which was installed as part of an extensive power plant upgrade, the Glenarm Repowering Project. 
 
-<img class="img-fluid" alt="Two turbine towers rise above the Glenarm Power Plant" src="{{ site.url }}/blog/img/glenarm3.jpg" />
+<img class="img-fluid" alt="The location sign in front of the Glenarm Power Plant" src="{{ site.url }}/blog/img/glenarm1.jpg" />
 
 The former plant, now only used for training, sits across the Gold Line tracks.
 
@@ -33,6 +33,7 @@ The former plant, now only used for training, sits across the Gold Line tracks.
 We were pleased to collaborate with Pasadena Water and Power (PWP) to offer Walktober tours of the City's Glenarm Power Plant for the second year in a row. PWP is a not-for-profit public service owned and operated by the City of Pasadena, and is one of the few community-owned municipal utilities in the state. We're grateful for the work they do to keep the lights on in Pasadena every day.
 
 <img class="img-fluid" alt="A group of people smile and pose in front of a metal container-like building" src="{{ site.url }}/blog/img/glenarm6.jpg" />
+
 <img class="img-fluid" alt="Two people smile, with steel buildings in the background" src="{{ site.url }}/blog/img/glenarm7.jpg" />
 
 *This is Part 2 of a series on Walktober 2019:*
