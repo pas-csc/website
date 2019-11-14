@@ -4,12 +4,13 @@ title: "Thoughts on a Future BRT: An open letter to Tom Wait"
 date: 2019-07-28
 url: tom-wait-BRT
 author: Talia
+excerpt: "When media outlets report on the results of community meetings, we should ask: Are some voices amplified because of the way the story is framed?"
 tags:
 - BRT
 - transit
 - media
 - Pasadena
-- Eagle Rock
+- "Eagle Rock"
 ---
 
 [Metro](http://www.metro.net/) is proposing a [new 18-mile bus rapid transit (BRT) line](http://www.metro.net/projects/noho-pasadena-corridor/) from North Hollywood to Pasadena, with 10 minute frequencies between Pasadena, Eagle Rock, Glendale, Burbank, and North Hollywood. With dedicated lanes to facilitate better bus service, Metro expects the BRT to travel at speeds 30 percent faster and attract 30,000 daily boardings. Metro staff hosted a series of community engagement meetings in each of the affected communities this past month, evoking impassioned responses from residents.

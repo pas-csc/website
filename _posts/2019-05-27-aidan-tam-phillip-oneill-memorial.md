@@ -1,8 +1,10 @@
 ---
+layout: post
 title: "2019: Remembering Aidan Tam and Phillip O'Neill"
 date: 2019-05-27
 url: aidan-tam-phillip-oneill-2019
-author: John and Bin
+author: "John and Bin"
+image: /blog/img/boba4aidanflyer.png
 tags:
 - "why we work"
 - "stop4aidan"
