@@ -7,13 +7,16 @@ excerpt: "We've been thinking about safe, green, stress-free, and inclusive stre
 {% for post in paginator.posts %}
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <p>Posted by {{ post.author }} on <strong>{{ post.date | date: "%A, %B %-d, %Y" }}</strong></p>
-{{ post.content }}
+{{ post.content | truncatewords:150 }}
+<p><a href="{{ post.url }}">Read more</a></p>
 {% if post.tags != empty %}
-    <p>Tags: {{ post.tags | sort_natural | join:', ' }}</p>
+    <p><strong>Tags:</strong> {{ post.tags | sort_natural | join:', ' }}</p>
 {% endif %}
 <hr>
 {% endfor %}
 
 {% include pagination.html %}
+
+<p>See a list of <a href="allposts/">all Pasadena CSC Blog Posts</a></p>
 
 {% include mailchimp.html %}

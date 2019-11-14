@@ -1,5 +1,5 @@
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
+<div class="pagination mb-3">
   {% if paginator.previous_page %}
     <a  class="ml-1 mr-2" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; {{site.str_previous_page}}</a>
   {% else %}

@@ -1,0 +1,16 @@
+---
+layout: static
+title: Index of Pasadena CSC Blog Posts
+markdown: kramdown
+excerpt: A list of all Pasadena CSC blog posts.
+---
+<h2>{{ page.title }}</h2>
+
+<p><a href="../">Blog main page</a></p>
+<ul>
+{% for post in site.posts %}
+<li>{{ post.date | date: "%B %-d, %Y" }} - <strong><a href="{{ post.url }}">{{ post.title }}</a></strong></li>
+{% endfor %}
+</ul>
+
+{% include mailchimp.html %}
