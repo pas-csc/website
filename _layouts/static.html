@@ -4,7 +4,7 @@
   <body>
   <!--Top anchor-->
 <div id="pagetop"></div>
-{% include alert.html %} <!--Comment out the contents of alert.html when there are no alerts-->
+<!---{% include alert.html %} Comment out the contents of alert.html when there are no alerts-->
 {% include menu.html %}
 <div class="container" style="padding-top:20px;">
 <p><a href="{{ site.url }}">Home</a> / {% if page.layout == 'post' %}<a href="{{ site.url }}/blog">Blog</a> / {% endif %}<strong>{{ page.title | truncatewords: 5 }}</strong></p>

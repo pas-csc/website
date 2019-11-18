@@ -34,7 +34,8 @@ title: Walktober 2019
     <p class="text-center"><a class="btn btn-walktober-sm mt-3 mr-3" href="press-release-sept-27/">Press Release - Sept. 27, 2019 (Grief)</a> 
     <a class="btn btn-walktober-sm mt-3 mr-3" href="press-release-oct-1/">Press Release - Oct. 1, 2019</a> 
     <a class="btn btn-walktober-sm mt-3 mr-3" href="press-release-oct-17/">Press Release - Oct. 17, 2019 (New CM Walks)</a>
-    <a class="btn btn-walktober-sm mt-3 mr-3" href="2019-10-07-walktober-pedestrian-safety-month.pdf">City of Pasadena Walktober Proclamation</a></p>
+    <a class="btn btn-walktober-sm mt-3 mr-3" href="2019-10-07-walktober-pedestrian-safety-month.pdf">City of Pasadena Walktober Proclamation</a>
+    <a class="btn btn-walktober-sm mt-3 mr-3" href="highlights/">Walk highlights and recommendations</a></p>
     </div>
   </div>
 </div>
@@ -57,18 +58,16 @@ title: Walktober 2019
 
 <!--Calendar-->
 <div class="actionitem" id="walkhelp">
-<p class= "text-center lead">Too many walks? Need some help finding the ones that match your specific interests? Check out our handy <a href="highlights/"> walk highlights list</a> for our recommendations.</p>
-<p class="text-center"><a class="btn btn-walktober-sm mt-1" href="highlights/">Get highlights and recommendations</a></p>
-
-<p class="text-center"><strong>UPDATE 10/23:</strong> Don't forget your (free) tickets for <strong><a href="#walktoberfest-card">Walktoberfest</a> on 10/25</strong>, followed by <strong><a href="#hampton-card">Councilmember Hampton's walk</a> on 10/26</strong>.</p><p class="text-center"><strong><a href="#kennedy-card">Councilmember Kennedy's Art Walk</a></strong> is confirmed for <strong>11/2</strong>.</p>
+<p class="text-center"><strong>Thank you to everyone who participated in Walktober 2019!</strong> We are overwhelmed with gratitude to the hundreds of people who came out to celebrate walking and to connect with the spirit of this event.</p>
+<p class="text-center">We've <a href="{{ site.url }}/blog/2019-10-23-reflections-walktober-2019/">written a few reflections</a> on Walktober, and you can check out photos on our <a href="https://www.facebook.com/pasadenacsc/">Facebook</a> and <a href="https://www.instagram.com/pasadenacsc/">Instagram</a>.</p>
+<p class="text-center">Walktober is done for 2019, but stay connected with our <a href="#newsletter">newsletter</a>...we've got plans for <strong>Spring 2020</strong>!</p>
 </div>
 
 <div id="eventList">
+<h2>Past Events</h2>
 {% for event in site.data.walkData2019 %}
-{% assign today = site.time | date: "%d" | abs %}
-{% assign datevar = event.Date | remove:"-Oct" | abs %}
 {% assign month = event.Date | slice:-3,3 %}
-{% if event.Date != nil and datevar >= today and month == "Oct" %}
+{% if event.Date != nil and month == "Oct" %}
 <div class="card-header d-md-none date-header"><i class="far fa-calendar-plus"></i> {{ event.Day}}, October {{ event.Date | remove:"-Oct" }}<!--small--></div>
 <div class="card card-body mb-3" id="{{ event.WebsiteID }}-card">
     <div class="row event-header">
@@ -178,56 +177,13 @@ title: Walktober 2019
 {% endfor %}
 </div>
 
-<div id="pastEventList">
-<h2>Past Events</h2>
-<p>These events have already passed, but may make a reappearance next year! (<a data-toggle="collapse" href="#past" role="button" aria-expanded="false" aria-controls="past">See the list</a>)</p>
-<div class="collapse" id="past">
-{% for event in site.data.walkData2019 %}
-{% assign today = site.time | date: "%d" | abs %}
-{% assign month = event.Date | slice:-3,3 %}
-{% assign datevar = event.Date | remove:"-Oct" | abs %}
-{% if event.Date != nil and datevar < today and month == "Oct" %}
-<div class="card-header d-md-none date-header"><a id="{{ event.WebsiteID }}-card"></a><i class="far fa-calendar-plus"></i> {{ event.Day}}, October {{ event.Date | remove:"-Oct" }}<!--small--></div>
-<div class="card card-body mb-3">
-    <div class="row event-header">
-        <div class="col-auto d-none d-md-block"><div class="datebox">{{ event.Day | slice:0,3 }}<br>Oct {{ event.Date | remove:"-Oct" }}</div><!--lg--></div>
-        <div class="col">
-            <h2>{{ event.WalkName }}</h2>
-            <div>
-                <div class="infoblock"><p><i class="far fa-clock"></i> {{ event.StartTime | date: "%l:%M %p" }}{% if event.EndTime!=nil %} to {{ event.EndTime | date: "%l:%M %p" }}{% endif %}</p></div>
-                <div class="infoblock"><p><i class="fas fa-dollar-sign"></i> {{ event.TicketPrice }}</p></div>
-                <div class="infoblock"><p><i class="fas fa-map-marker-alt"></i> {{ event.MeetingLocation }}{% if event.GMap!=nil %} (<a href="{{ event.GMap }}" target="_blank" rel="noopener noreferrer">Map</a>){% endif %}</p></div>
-            </div>
-                <p>
-                {% if event.FBEventURL != nil %}<a href="{{ event.FBEventURL }}" target="_blank" rel="noopener noreferrer">Facebook Event Page</a>{% endif %}
-                {% if event.InfoPage != nil %} | <a href="{{ event.InfoPage }}" target="_blank" rel="noopener noreferrer">{{ event.PageType }}</a>{% endif %}
-                {% if event.TicketsURL != nil %} | <a href="{{ event.TicketsURL }}" target="_blank" rel="noopener noreferrer">Order Tickets</a>{% endif %}
-                </p>
-            </div></div>
-    <div class="row event-body"><div class="col">
-        <p>{{ event.WebsiteTeaser }} (<a data-toggle="collapse" href="#{{ event.WebsiteID }}" role="button" aria-expanded="false" aria-controls="{{ event.WebsiteID }}">Details</a>)</p>
-        <div class="collapse" id="{{ event.WebsiteID }}">
-            <p>{{ event.Detail1 }}</p>
-            {% if event.Detail2 != nil %}<p>{{ event.Detail2 }}</p>{% endif %}
-            {% if event.Detail3 != nil %}<p>{{ event.Detail3 }}</p>{% endif %}
-            {% if event.PartnerListing =="Y" %}<p>This is a partner event, so please see our partner's <a href="{{ event.InfoPage }}" target="_blank" rel="noopener noreferrer">event page</a> for the most up-to-date information.</p>{% endif %}
-            <p><em>Hosted by <a href="{{ event.OrgSite1 }}" target="_blank" rel="noopener noreferrer">{{ event.PartnerOrg1 }}</a>{% if event.PartnerOrg3 != nil %}, <a href="{{ event.OrgSite2 }}" target="_blank" rel="noopener noreferrer">{{ event.PartnerOrg2 }}</a>, and <a href="{{ event.OrgSite3 }}" target="_blank" rel="noopener noreferrer">{{ event.PartnerOrg3 }}</a>{% endif %}{% if event.PartnerOrg2 != nil and event.PartnerOrg3 == nil %} and <a href="{{ event.OrgSite2 }}" target="_blank" rel="noopener noreferrer">{{ event.PartnerOrg2 }}</a>{% endif %}</em>.</p>
-            {% if event.TransitInfo !=nil %}<hr>
-            {% endif %}
-        </div>
-    </div></div>
-</div>
-{% endif %}
-{% endfor %}
-</div>
-</div>
 
 <!--Partner Area-->
 <div id="pagetop" style="padding-top:30px;">
   <div class="row"> 
     <div class="col text-center">
     <img class="align-center mt-2 mb-3" src="{{ site.url }}/img/csc_logos/banner_small.jpg" width="300px" alt="Pasadena CSC">
-    <h3 class="text-center">Walktober 2019 is a labor of love by the Pasadena Complete Streets Coalition, in partnership with:</h3> 
+    <h3 class="text-center">Walktober 2019 was a labor of love by the Pasadena Complete Streets Coalition, in partnership with:</h3> 
       <p class="text-center">
       Day One<br>
       GirlTrek Trailblazers<br>
