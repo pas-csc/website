@@ -4,7 +4,7 @@ title: "Bridges: Restoring Balance to a Wounded World"
 date: 2019-10-29
 url: bridges-walktober-2019
 images: /blog/img/bridges.jpg
-excerpt: "Complete Streets is about finding a way that will let everyone get home to their loved ones at the end of the day -- whether we're talking about one person's grandmother crossing the street tonight, or our future selves trying to make a living in 2050."
+twitdesc: "Complete Streets is about finding a way that will let everyone get home to their loved ones at the end of the day -- whether we're talking about one person's grandmother crossing the street tonight, or our future selves trying to make a living in 2050."
 author: Cary Belling and Candace Seu
 tags:
 - "why we work"

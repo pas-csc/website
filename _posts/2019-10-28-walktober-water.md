@@ -4,7 +4,7 @@ title: "People, Plants, and Water: Caring for the Future Together"
 date: 2019-10-28
 url: water-walktober-2019
 image: /blog/img/waterwise.jpg
-excerpt: "We hope to leave a better world with reliable, clean water and safe, walkable streets to all of our children -- and to ourselves as well."
+twitdesc: "We hope to leave a better world with reliable, clean water and safe, walkable streets to all of our children -- and to ourselves as well."
 author: Candace Seu
 tags:
 - "why we work"

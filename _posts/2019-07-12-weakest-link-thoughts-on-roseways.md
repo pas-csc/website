@@ -3,7 +3,7 @@ layout: post
 title: "Only as good as its weakest link: thoughts on Pasadena's Roseways"
 date: 2019-07-12
 url: weakest-link-roseways
-excerpt: "A bike network is only as good as its weakest link. If 80% is 'bike-friendly' but 20% is stressful, it doesn't matter."
+twitdesc: "A bike network is only as good as its weakest link. If 80% is 'bike-friendly' but 20% is stressful, it doesn't matter."
 image: /blog/img/glenarmwest.png
 author: John Lloyd
 tags:

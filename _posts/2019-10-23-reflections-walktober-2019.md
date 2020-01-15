@@ -5,7 +5,7 @@ date: 2019-10-23
 url: reflections-walktober-2019
 image: /blog/img/cityhallwalk.jpg
 author: Candace S
-excerpt: "Walktober is more than a celebration -- it's also an act of witness, faith, and unexpected healing and connection."
+twitdesc: "Walktober is more than a celebration -- it's also an act of witness, faith, and unexpected healing and connection."
 tags:
 - "why we work"
 - Walktober

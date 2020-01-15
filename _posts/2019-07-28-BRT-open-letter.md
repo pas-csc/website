@@ -4,7 +4,7 @@ title: "Thoughts on a Future BRT: An open letter to Tom Wait"
 date: 2019-07-28
 url: tom-wait-BRT
 author: Talia
-excerpt: "When media outlets report on the results of community meetings, we should ask: Are some voices amplified because of the way the story is framed?"
+twitdesc: "When media outlets report on the results of community meetings, we should ask: Are some voices amplified because of the way the story is framed?"
 tags:
 - BRT
 - transit

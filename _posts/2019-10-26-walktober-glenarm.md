@@ -5,7 +5,7 @@ date: 2019-10-26
 url: glenarm-walktober-2019
 author: Blair Miller, Jeff Hall, and Candace Seu
 image: /blog/img/glenarm3.jpg
-excerpt: "We hope that Walktober allows people to think about walking -- as a social activity, as a way to get and stay healthy, as a mode of transportation, and as an opportunity to learn and explore -- with new eyes."
+twitdesc: "We hope that Walktober allows people to think about walking -- as a social activity, as a way to get and stay healthy, as a mode of transportation, and as an opportunity to learn and explore -- with new eyes."
 tags:
 - "why we work"
 - walktober
