@@ -6,7 +6,7 @@ layout: static
 <p>Posted by {{ page.author }} on <strong>{{ page.date | date: "%A, %B %-d, %Y" }}</strong></p>
 {{ page.content }}
 {% if page.tags != empty %}
-    <p>Tags: {{ page.tags | sort_natural | join:', ' }}</p>
+    <p><strong>Tags:</strong> {{ page.tags | sort_natural | join:', ' }}</p>
 {% endif %}
 
 {% include mailchimp.html %}

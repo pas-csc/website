@@ -20,7 +20,7 @@ tags:
 
 **David Robert Wolf *(January 1, 1965 - December 21, 2019)* was a lifelong Pasadenan, a visionary architect and urbanist, and a dear friend to many of us at Pasadena CSC. We grieve his loss, remember his life, and invite you to share in his vision of connection.**
 
-As we look to [renewal](https://www.pasadenacsc.org/blog/2019-12-30-renewal2020/) in the last year of this decade, we also look to the past for guidance. Patterns of change tend to echo through time, and one of David’s gifts was the ability to see those patterns and make them visible to others. 
+As we look to [renewal](https://www.pasadenacsc.org/blog/2019-12-30-renewal2020/) in the first year of this decade, we also look to the past for guidance. Patterns of change tend to echo through time, and one of David’s gifts was the ability to see those patterns and make them visible to others. 
 
 David and his vision will forever be a part of Pasadena, and we now look to his life as we nurture and carry his vision forward. 
 
@@ -62,5 +62,5 @@ On November 18, 2019, David presented his final work - the Arroyo Link - to the 
 <div class="actionitem">
 <p>We hope you’ll join us in the coming years to advance Pasadena Passages, engage more residents of all backgrounds in City planning, and reconnect downtown Pasadena to the Arroyo Seco. In this vein, we’ll be hosting a series of events to recognize and raise awareness of David’s work in 2020, including a Passages Walk and Arroyo Link tour. </p>
 
-<p>If you’d like to participate in planning, or receive a personal invitation to these events, please add your contact information <a href="https://docs.google.com/forms/d/e/1FAIpQLSfb_ZEVk8ouwchAhIjuAZB-EhepqbnAwkSnkGjMRHFXxkGRAw/viewform">here</a>. In the meantime, David's collective works can be viewed at <a href="http://www.pasadenapassages.org">www.pasadenapassages.org</a>.</p>
+<p><strong>If you’d like to participate in planning, or receive a personal invitation to these events, please add your contact information <a href="https://docs.google.com/forms/d/e/1FAIpQLSfb_ZEVk8ouwchAhIjuAZB-EhepqbnAwkSnkGjMRHFXxkGRAw/viewform">here</a>.</strong> In the meantime, David's collective works can be viewed at <a href="http://www.pasadenapassages.org">www.pasadenapassages.org</a>.</p>
 </div>
