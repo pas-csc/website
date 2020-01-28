@@ -33,8 +33,8 @@ A proud graduate of Pasadena's public schools -- including Linda Vista Elementar
 David’s ideas for Pasadena were bold and wide-ranging, yet his approach was built upon a detailed understanding of historical precedent to create a continuum, bridging our past with our future. From 2008 to 2019, he invested thousands of unpaid hours in developing and refining three beautifully designed blueprints for a more engaged, holistic, and livable Pasadena. These works included:
 
 - **[Pasadena Passages](https://mycity.is/passages/)** - a proposal to link existing pedestrian passages in the City’s historic core and downtown *([Video](https://player.vimeo.com/video/339628290) overview)*;
-- **[My City](https://issuu.com/mycityis/docs/_22my_city_22?fr=sOTA1MTUyMTU3OA)** - the story of Pasadena’s City Beautiful Movement and a call for a return to community-driven city planning *([Video](https://player.vimeo.com/video/339628290) overview)*; and
-- **[The Arroyo Link](https://issuu.com/mycityis/docs/the_arroyo_link_document?fr=sYTE4MjUyMTU3OA)** - a proposal to reconnect the past with the future by creating a multi-use path from downtown Pasadena to the Arroyo Seco.
+- **[My City](https://issuu.com/mycityis/docs/_22my_city_22?fr=sOTA1MTUyMTU3OA)** - the story of Pasadena’s City Beautiful Movement and a call for a return to community-driven city planning *([Video](https://player.vimeo.com/video/145923361) overview)*; and
+- **[The Arroyo Link](https://issuu.com/mycityis/docs/the_arroyo_link_document?fr=sYTE4MjUyMTU3OA)** - a proposal to reconnect the past with the future by creating a multi-use path from downtown Pasadena to the Arroyo Seco. ([Proposal Document](https://issuu.com/mycityis/docs/the_arroyo_link_document?fr=sYTE4MjUyMTU3OA))
 
 <img class="img-fluid mx-auto d-block" src="{{ site.url }}/blog/img/wolf-passages-sm.jpg">  
 <p class="caption text-center">David's Pasadena Passages map shows a connected network of human-friendly walkways throughout Pasadena' Civic Center and Central District in green (<a href="{{ site.url }}/blog/img/wolf-passages-lg.jpg">larger image</a>)</p>
