@@ -30,7 +30,7 @@ Some candidates were in favor of increasing transit service, which has an advant
 
 <div class="pulledquote">How great would it feel to take a leisurely walk or bike ride with friends to dinner, knowing that you were fighting for the future and caring for yourself at the same time? We <em>need</em> to increase bikeability throughout our City.</div>
 
-A beautiful way to do that would be to shift our short daily trips to walking or biking. *How great would it feel to take a leisurely 5-20 minute walk or bike ride with friends to dinner, knowing that you were fighting for the future and caring for yourself at the same time?* 
+A beautiful way to do that would be to shift our short daily trips -- the 48% under 3 miles or less -- to walking or biking. *How great would it feel to take a leisurely 5-20 minute walk or bike ride with friends to dinner, knowing that you were fighting for the future and caring for yourself at the same time?* 
 
 If we, as a city, want that feeling for ourselves and our neighbors, then we *need* to increase bikeability throughout our City.  We need a viable bike network, which would make it easier, comfortable, and *fun* for people to get out of their cars for short trips.
 
