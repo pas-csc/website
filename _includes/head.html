@@ -16,12 +16,22 @@
 
   <link rel="stylesheet" href="{{ site.url }}/css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald|Montserrat" rel="stylesheet">
-  
-  <!-- twitter card -->
-  <meta name="twitter:description" content="{% if page.twitdesc %}{{ page.twitdesc | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:card" content="{% if page.image %}summary_large_image{% else %}summary{% endif %}">
+<!-- For Google -->
+<meta name="description" content="{% if page.twitdesc %}{{ page.twitdesc | strip_newlines }}{% else %}{{ site.description }}{% endif %}" />
+<meta name="keywords" content="{{ page.tags | join:', ' }}, complete streets, green streets, street safety, traffic safety, bike, bicycling, walk, walking, pedestrian, climate crisis, alternative transportation" />  
+<!-- For Twitter -->
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@pasadenacsc">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.twitdesc %}{{ page.twitdesc | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
 {% if page.image %}  <meta name="twitter:image:src" content="{{ page.image | prepend: site.url }}">{% endif %} 
-  <!-- end twitter card -->
+<!-- For Facebook -->
+  <meta property="fb:app_id" content="906825896346068">
+  <meta property="og:url" content="{{ page.url }}">  
+  <meta property="og:type" content="article" />  
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.twitdesc %}{{ page.twitdesc | strip_newlines }}{% else %}{{ site.description }}{% endif %}">  
+
+  {% if page.image %}  <meta name="og:image" content="{{ page.image | prepend: site.url }}">{% endif %} 
+
 </head>
