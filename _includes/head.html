@@ -27,11 +27,11 @@
 {% if page.image %}  <meta name="twitter:image:src" content="{{ page.image | prepend: site.url }}">{% endif %} 
 <!-- For Facebook -->
   <meta property="fb:app_id" content="906825896346068">
-  <meta property="og:url" content="{{ page.url }}">  
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">  
   <meta property="og:type" content="article" />  
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{% if page.twitdesc %}{{ page.twitdesc | strip_newlines }}{% else %}{{ site.description }}{% endif %}">  
 
-  {% if page.image %}  <meta name="og:image" content="{{ page.image | prepend: site.url }}">{% endif %} 
+  {% if page.image %}  <meta property="og:image" content="{{ page.image | prepend: site.url }}">{% endif %} 
 
 </head>
