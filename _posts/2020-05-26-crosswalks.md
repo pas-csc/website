@@ -4,7 +4,7 @@ title: "PasCSC Explainer: Crosswalks"
 url: crosswalks
 image: /blog/img/crosswalk.jpg
 author: "Jaclyn G"
-twitdesc: "A new kind of crosswalk is coming to Pasadena...do you know what it is? Jaclyn G has the details on how, when, and why it'll spruce up your neighborhood."
+twitdesc: "A new kind of crosswalk is coming to Pasadena. Jaclyn G has the details on how, when, and why it'll spruce up your neighborhood."
 tags:
 - "crosswalks"
 - "walking"
@@ -55,9 +55,9 @@ The continental crosswalk has already been adopted as the standard style for use
 
 First, it has to be approved for **Pasadena’s Capital Improvement Program (CIP)**.
 
-The CIP is a list of projects for improving the city’s public infrastructure: such as streets, transportation issues, street lights, traffic signals, parks, public buildings, sewer and storm drains. It’s a five-year plan that’s updated every year. Every November, the Department of Public Works sends out a “Call for New Projects”. Anyone in the city -- including City Councilmembers, Commission members, City employees, community groups, and members of the public -- can formally (and easily!) submit new project ideas. 
+The CIP is a list of projects for improving the city’s public infrastructure: such as streets, transportation issues, street lights, traffic signals, parks, public buildings, sewer and storm drains. It’s a five-year plan that’s updated every year. Every November, the Department of Public Works sends out a “Call for New Projects”. Anyone in the city -- including City Councilmembers, Commission members, City employees, community groups, and members of the public -- can formally (and easily!) submit new project ideas. (The continental crosswalks project came out of a request by several members of Pasadena CSC, among others!)
 
-The Transportation Advisory Commission reviews and provide input on projects submitted in the Street and Streetscapes, Transportation, and Parking category (which would include crosswalks). The project’s ideas are then reviewed and prioritized for possible addition to the CIP by City staff, and the list is finally approved by the City Manager and City Council. You can read more about the entire process [here](https://www.cityofpasadena.net/public-works/engineering-and-construction/capital-improvement-program/).
+The Transportation Advisory Commission reviews and provide input on projects submitted in the Street and Streetscapes, Transportation, and Parking category (which would include crosswalks). This process recently took place on March 10. The project’s ideas are then reviewed and prioritized for possible addition to the CIP by City staff, and the list is finally approved by the City Manager and City Council. You can read more about the entire process [here](https://www.cityofpasadena.net/public-works/engineering-and-construction/capital-improvement-program/).
 
 Here is the final list of projects that were approved for Pasadena’s [FY 2021 - 2025 Capital Improvement Program](https://www.cityofpasadena.net/public-works/wp-content/uploads/sites/29/05-Transportation.pdf).
 
