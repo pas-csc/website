@@ -1,0 +1,25 @@
+---
+label: Generic blog post
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: url
+  label: url
+- type: file
+  name: image
+  label: image
+- type: text
+  name: author
+  label: author
+- type: text
+  name: twitdesc
+  label: twitdesc
+- type: list
+  name: tags
+  label: tags
