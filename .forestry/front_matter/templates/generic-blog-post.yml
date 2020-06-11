@@ -5,21 +5,27 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title of your post
 - type: text
   name: url
   label: url
+  description: Choose the final part of the URL you want people to use to get to your
+    post (e.g., https://www.pasadenacsc.org/blog/[YOUR URL]/)
 - type: file
   name: image
-  label: image
+  label: Image for social media
+  description: 'Ideally you want a width:height ratio of 1.91 : 1'
 - type: text
   name: author
-  label: author
+  label: Who wrote this post?
 - type: text
   name: twitdesc
-  label: twitdesc
+  label: The teaser used on social media to make folks want to click
 - type: list
   name: tags
-  label: tags
+  label: Topics mentioned in this post.
+  config:
+    use_select: false
