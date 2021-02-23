@@ -1,5 +1,5 @@
 # About
-Codebase for the Pasadena Complete Streets Coalition website
+This is the codebase for the old (2015-2020) Pasadena Complete Streets Coalition website. We have a different website with a different CMS on a different server now, maintained by new people. Contact info [at] pasadenacsc [dot] org, or check it out at[https://www.pasadenacsc.org/](https://www.pasadenacsc.org/).
 
 ### Software requirements (these are all free)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) - to keep track of and upload changes
